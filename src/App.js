@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavComponent from './components/NavComponent/NavComponent';
-import {HomePage} from './pages/HomePage/HomePage';
-import {GalleryPage} from './pages/GalleryPage/GalleryPage'
-import {LoginPage} from './pages/LoginPage/LoginPage'
-import {RegisterPage} from './pages/RegisterPage/RegisterPage'
+import {HomePage} from './pages/homePage/homePage';
+import {GalleryPage} from './pages/galleryPage/galleryPage'
+import {LoginPage} from './pages/loginPage/loginPage'
+import {RegisterPage} from './pages/registerPage/registerPage'
 function App() {
   return (
     <div className="App">
