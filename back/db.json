@@ -394,102 +394,122 @@
         {
         "id": 1,
         "email": "oscar@mail.com",
-        "nombre": "Óscar"
+        "nombre": "Óscar",
+        "password": 1234
         },
         {
         "id": 2,
         "email": "gonzalo@mail.com",
-        "nombre": "Gonzalo"
+        "nombre": "Gonzalo",
+        "password": 4567
         },
         {
         "id": 3,
         "email": "miriam@mail.com",
-        "nombre": "Miriam"
+        "nombre": "Miriam",
+        "password": 8910
         },
         {
         "id": 4,
         "email": "carapapa@mail.com",
-        "nombre": "Carlos"
+        "nombre": "Carlos",
+        "password": 5575
         },
         {
         "id": 5,
         "email": "judith@mail.com",
-        "nombre": "Judith"
+        "nombre": "Judith",
+        "password": 4587
         },
         {
         "id": 6,
         "email": "alex@mail.com",
-        "nombre": "Alejandro"
+        "nombre": "Alejandro",
+        "password": 4321
         },
         {
         "id": 7,
         "email": "rocio@mail.com",
-        "nombre": "Rocío"
+        "nombre": "Rocío",
+        "password": 7777
         },
         {
         "id": 8,
         "email": "marta@mail.com",
-        "nombre": "Marta"
+        "nombre": "Marta",
+        "password": 9852
         },
         {
         "id": 9,
         "email": "pepe@mail.com",
-        "nombre": "Pepe"
+        "nombre": "Pepe",
+        "password": 5973
         },
         {
         "id": 10,
         "email": "raul@mail.com",
-        "nombre": "Raúl"
+        "nombre": "Raúl",
+        "password": 1234
         },
         {
         "id": 11,
         "email": "antonio@mail.com",
-        "nombre": "Antonio"
+        "nombre": "Antonio",
+        "password": 1234
         },
         {
         "id": 12,
         "email": "jorge@mail.com",
-        "nombre": "Jorge"
+        "nombre": "Jorge",
+        "password": 1234
         },
         {
         "id": 13,
         "email": "beatriz@mail.com",
-        "nombre": "Beatriz"
+        "nombre": "Beatriz",
+        "password": 1111
         },
         {
         "id": 14,
         "email": "sandra@mail.com",
-        "nombre": "Sandra"
+        "nombre": "Sandra",
+        "password": 9999
         },
         {
         "id": 15,
         "email": "julia@mail.com",
-        "nombre": "Julia"
+        "nombre": "Julia",
+        "password": 6548
         },
         {
         "id": 16,
         "email": "tere@mail.com",
-        "nombre": "Teresa"
+        "nombre": "Teresa",
+        "password": 3333
         },
         {
         "id": 17,
         "email": "lorenzo@mail.com",
-        "nombre": "Lorenzo"
+        "nombre": "Lorenzo",
+        "password": 2606
         },
         {
         "id": 18,
         "email": "silvia@mail.com",
-        "nombre": "Silvia"
+        "nombre": "Silvia",
+        "password": 7896
         },
         {
         "id": 19,
         "email": "guillermo@mail.com",
-        "nombre": "Guillermo"
+        "nombre": "Guillermo",
+        "password": 9876
         },
         {
         "id": 20,
         "email": "salva@mail.com",
-        "nombre": "Salvador"
+        "nombre": "Salvador",
+        "password": 3105
         }
     ],
 
