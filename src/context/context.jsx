@@ -3,8 +3,18 @@ import { createContext, useEffect, useState } from "react";
 import React from 'react'
 
 export const FilmsContext = createContext()
-
 const url = "http://localhost:3000/"
+
+/* 
+Según Jose hay que hacer esta función (login) que me muestra el usuario con el mail y la password
+export const login = ({email, password}) => {
+  const user = users.find(
+    (user) => user.email === email && user.password === password
+  );
+  if (user === undefined) throw new Error();
+  return user;
+}
+ */
 
 export const FilmsContextProvider = ({children}) => {
   const [films, setFilms] = useState([])
@@ -49,4 +59,5 @@ export const FilmsContextProvider = ({children}) => {
         {children}
     </FilmsContext.Provider>
   )
+  
 }
