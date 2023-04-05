@@ -34,17 +34,17 @@ const onSubmit = (ev) => {
 
   return(
     <div className={styles.LoginContainer}>
-      <h2>Login</h2>
+      
       <form onSubmit={onSubmit}>
         <label className={styles.MailLogin} htmlFor='email'>Email</label>
         <input type="text" id="email" value={FormUser.email} onChange={handleInput}/>
         <br/>
       
-        <label htmlFor='password'>Password</label>
+        <label className={styles.MailLogin} htmlFor='password'>Password</label>
         <input type="text" id="password" value={FormUser.password} onChange={handleInput}/>
 
         <br/>
-        <button type='submit'>Login</button>
+        <button className={styles.ButtonLogin} type='submit'>Login</button>
       </form>
     </div>
   )

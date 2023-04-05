@@ -27,7 +27,7 @@ const logoutUser = () => setUser(null);
     <div className="App">
     {/*a NavComponent le paso authenticated para que sepa cuándo pintar el botón de login o logout y le paso la función logout para que la pueda usar */}
     <NavComponent authenticated={authenticated} logoutUser={logoutUser}/>
-    {authenticated ? <p>{user.username}</p> : <p>No hay usuario</p>}
+    {/* {authenticated ? <p>{user.username}</p> : <p>No hay usuario</p>} */}
     <FilmsContextProvider>
       <Routes>
       <Route exact path="/" element={<HomePage/>}></Route>

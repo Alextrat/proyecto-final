@@ -1,20 +1,22 @@
 .LoginContainer {
     display:block;
-    background-color: rebeccapurple;
+    margin-top: 50px;
 }
 .MailLogin {
-    background-color: chartreuse;
+    color: rgb(222, 244, 19);
     margin-bottom: 30px;
     font-size: 30px;
+    font-weight:normal;
 }
 
-h2 {
-    color:red;
+.ButtonLogin {
+    color: black;
+    padding: 15px;
+    height: 50px;
+    background-color:rgb(222, 244, 19);
+    border-radius: 8px;
 }
 
-label {
-    background-color: cornflowerblue;
-}
 
 form {
     width: 400px;
