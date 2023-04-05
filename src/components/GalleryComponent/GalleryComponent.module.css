@@ -1,0 +1,40 @@
+
+.gallery{
+    margin-left: 15px;
+    margin-top: 30px;
+    /* display: flex;  
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.gallery_img{
+    padding: 1%;
+    max-width: 250px;
+}
+.gallery_item{
+    padding: 1%;
+
+}
+h3{
+    text-align: left;
+    margin-left: 20%;
+    padding: 3%;
+    font-size: small;
+    max-width: 220px;
+}
+.searchbar{
+    display: flex;
+    width: 50%;
+}
+
+button{
+    color: black;
+    padding: 8px;
+    height: 40px;
+}
+input{
+    /* width: 30%; */
+    color: black;
+}

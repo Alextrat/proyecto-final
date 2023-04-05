@@ -1,709 +1,799 @@
 {
-  "peliculas": [
-    {
-      "id": 1,
-      "nombre": "El sexto sentido",
-      "dirección": "M. Night Shyamalan",
-      "año": 1999,
-      "clasificacion": "Terror",
-      "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8cqibPp3XYq9TBV07zzClp64xHde3etHP0d432XM917HEbra1 ",
-      "sinopsis": "El doctor Malcom Crowe es un conocido psicólogo infantil de Philadelphia que vive obsesionado por el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cuando conoce a Cole Sear, un aterrorizado y confuso niño de ocho años que necesita tratamiento, ve que se le presenta la oportunidad de redimirse haciendo todo lo posible por ayudarlo. Sin embargo, el doctor Crowe no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados."
-    },
-    {
-      "id": 2,
-      "nombre": "Pulp Fiction",
-      "dirección": "Quentin Tarantino",
-      "año": 1994,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUTnNVTW8xT3y97qIZ8op9FNtIXzmp6TPDcC0qpqTvvKNV9YT ",
-      "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín."
-    },
-    {
-      "id": 3,
-      "nombre": "Todo Sobre Mi Madre",
-      "dirección": "Pedro Almodóvar",
-      "año": 1999,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQ-JpM4u-s1uu1_fE6Worg8SAl1YzkTUNv-i2u4GHxTE_9nKDn ",
-      "sinopsis": "Madrid. Manuela, una madre soltera, ve morir a su hijo el día en que cumple 17 años, por echarse a correr para conseguir el autógrafo de Huma Rojo, su actriz favorita. Destrozada, Manuela viaja entonces a Barcelona en busca del padre del chico."
-    },
-    {
-      "id": 4,
-      "nombre": "300",
-      "dirección": "Zack Snyder",
-      "año": 2006,
-      "clasificacion": "Acción",
-      "caratula": "https://es.web.img3.acsta.net/medias/nmedia/18/67/71/17/20027466.jpg ",
-      "sinopsis": "Adaptación del cómic de Frank Miller (autor del cómic 'Sin City') sobre la famosa batalla de las Termópilas (480 a.C.). El objetivo de Jerjes, emperador de Persia, era la conquista de Grecia, lo que desencadenó las Guerras Médicas. Dada la gravedad de la situación, el rey Leónidas de Esparta (Gerard Butler) y 300 espartanos se enfrentaron a un ejército persa que era inmensamente superior. "
-    },
-    {
-      "id": 5,
-      "nombre": "El silencio de los corderos",
-      "dirección": "Jonathan Demme",
-      "año": 1991,
-      "clasificacion": "Suspense",
-      "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8Mj9G4tsKR_traZ-QZFhKEx9BRP6Gj9AiH8Hjm4_86ByxS99T ",
-      "sinopsis": "El FBI busca a Buffalo Bill, un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo recurren a Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado al Dr. Hannibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta del asesino que están buscando."
-    },
-    {
-      "id": 6,
-      "nombre": "Forrest Gump",
-      "dirección": "Robert Zemeckis",
-      "año": 1994,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgJaxEFJxdwh2SP1sAI92IQgaThjvJM6XSd1G2YEEqVwjqNnVF ",
-      "sinopsis": "Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presente la bella Jenny (Robin Wright), su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida."
-    },
-    {
-      "id": 7,
-      "nombre": "Coco",
-      "dirección": "Lee Unkrich, Adrián Molina",
-      "año": 2017,
-      "clasificacion": "Animación",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjw1xP61nhC8NCkGYlfqyan2ToW5OoGSclcw0IJTvOxBHttTfC ",
-      "sinopsis": "Miguel es un joven con el sueño de convertirse en leyenda de la música a pesar de la prohibición de su familia. Su ídolo es Ernesto de la Cruz, el músico y cantante más famoso de México. La pasión de Miguel le llevará a adentrarse en la Tierra de los Muertos, donde conocerá su verdadero legado familiar."
-    },
-    {
-      "id": 8,
-      "nombre": "Luca",
-      "dirección": "Enrico Casarosa",
-      "año": 2021,
-      "clasificacion": "Animación",
-      "caratula": "https://pics.filmaffinity.com/luca-907827591-large.jpg ",
-      "sinopsis": "La historia se desarrolla en un hermoso pueblo al lado del mar en la Riviera Italiana. Es la del crecimiento de un niño que experimenta un verano inolvidable con helado, pasta e interminables viajes en scooter. Luca comparte estas aventuras con su nuevo mejor amigo, pero toda la diversión se ve amenazada por un gran secreto: es un monstruo marino de otro mundo ubicado justo debajo de la superficie del agua."
-    },
-    {
-      "id": 9,
-      "nombre": "Harry Potter y el misterio del príncipe",
-      "dirección": "David Yates",
-      "año": 2009,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQreg_9XZMBINvVF4_RqJJoVg8QrI7zSJjEsJdrS6-zxk-R10Gz",
-      "sinopsis": "Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de Quidditch, los entrenamientos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte. El anciano director pedirá ayuda a Harry y juntos emprenderán un peligroso viaje. Para debilitar al enemigo, el joven mago cuenta con la ayuda de un viejo libro de pociones perteneciente a un misterioso personaje que se hace llamar el Príncipe Mestizo."
-    },
-    {
-      "id": 10,
-      "nombre": "Animales fantásticos: los secretos de Dumbledore",
-      "dirección": "David Yates",
-      "año": 2022,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfMTr_m3ZP3gxpm3NkHiboJdnNgtfy8sJevxFygqaU10mYGyHM",
-      "sinopsis": "El malvado y poderoso mago Grindelwald sigue buscando adeptos a su causa, pero esta vez se transportará a todos los rincones y mundos mágicos existentes para obtener lo que quiere. Por otra parte, Dumbledore unirá a su propio ejército formado por Newt y Theseus Scamander, Jacob, entre otros, para poner fin a la guerra que está a punto de comenzar Grindelwald en su nombre. Mientras encuentran aliados y la manera de poner fin a esta oscura edad, el pasado de Dumbledore irá cada vez tomando más presencia en la historia entre él y su antiguo amigo Grindelwald, con quien le unen otros grandes lazos más allá de la enemistad. "
-    },
-    {
-      "id": 11,
-      "nombre": "CODA: Los sonidos del silencio",
-      "dirección": "Siân Heder ",
-      "año": 2021,
-      "clasificacion": "Drama ",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROplcIHHqOkQnijBzaEu9MEw4dlucecOFv-lVEirUTx8LsOv_5 ",
-      "sinopsis": "Ruby (Emilia Jones) es el único miembro oyente de una familia de sordos. Ella es una CODA -child of deaf adult-. A sus 17 años, trabaja por la mañana con sus padres y su hermano en Gloucester, Massachusetts, antes de ir a clase, tratando de mantener a flote el negocio pesquero familiar. Ávida de encontrar nuevas aficiones, Ruby decide probar suerte en el coro de su instituto, donde no sólo descubre una latente pasión por el canto, sino también una fuerte atracción física por el chico con el que debe realizar un dueto. Su entusiasta profesor (Eugenio Derbez) ve algo especial en ella y la anima a que piense en la posibilidad de entrar en la escuela de música, algo que la obligaría a tener que tomar una decisión de cara a su futuro: o sus estudios, o su familia. "
-    },
-    {
-      "id": 12,
-      "nombre": "Babylon ",
-      "dirección": "Damien Chazelle ",
-      "año": 2022,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfNTcwL6JJ0xMNn96x7TnYmrAGxY1fmDrFwBgsUORTvY9f48iT ",
-      "sinopsis": "Ambientada en Los Ángeles durante los años 20, cuenta una historia de ambición y excesos desmesurados que recorre la ascensión y caída de múltiples personajes durante una época de desenfrenada decadencia y depravación en los albores de Hollywood. "
-    },
-    {
-      "id": 13,
-      "nombre": "Escalera al infierno",
-      "dirección": "Brendan Muldowney ",
-      "año": 2022,
-      "clasificacion": "Terror ",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0Uido9Dr1OoMbBWUvzRB0N15mM85qiIc_8FPa0x6orVePs77n ",
-      "sinopsis": "La hija de Keira Woods desaparece misteriosamente en el sótano de su nueva casa. Pronto descubre que hay una entidad antigua y poderosa que controla su hogar a la que tendrá que enfrentar o arriesgarse a perder el alma de su familia para siempre. "
-    },
-    {
-      "id": 14,
-      "nombre": "Los Cazafantasmas ",
-      "dirección": "Ivan Reitman ",
-      "año": 1984,
-      "clasificacion": "Comedia ",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-gHIJ802JdeJ0aZ-v_LFgtswAsCs8d23qWn2Uc7AJleIBDgI ",
-      "sinopsis": "A los doctores Venkman, Stantz y Spengler, expertos en parapsicología, no les conceden una beca de investigación que habían solicitado. Al encontrarse sin trabajo, deciden fundar la empresa Los Cazafantasmas, dedicada a limpiar Nueva York de ectoplasmas. El aumento repentino de apariciones espectrales en la ciudad será el presagio de la llegada de un peligroso y poderoso demonio. "
-    },
-    {
-      "id": 15,
-      "nombre": "Los Goonies",
-      "dirección": "Richard Donner",
-      "año": 1985,
-      "clasificacion": "Acción ",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTg2ECQIB3x6ryjJKlDea9uDp-ui5qChDa9U7I3itZgcc74mAXH",
-      "sinopsis": "Mikey es un niño de trece años que junto con su hermano mayor y sus amigos forman un grupo que se hacen llamar los Goonies. Un día deciden subir al desván de su casa, donde su padre guarda antigüedades. Allí encuentran el mapa de un tesoro perdido que data del siglo XVII, de la época de los piratas, y deciden salir a buscarlo repletos de espíritu aventurero. "
-    },
-    {
-      "id": 16,
-      "nombre": "Una Mente Maravillosa",
-      "dirección": "Ron Howard",
-      "año": 2001,
-      "clasificacion": "Drama ",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRPlAbPBKfXVAWqYo-5Mxzdp0YLzDCa4jUGogXQVtlMoBSdT7dL ",
-      "sinopsis": "Obsesionado con la búsqueda de una idea matemática original, el brillante estudiante John Forbes Nash (Russell Crowe) llega a Princeton en 1947 para realizar sus estudios de postgrado. Es un muchacho extraño y solitario, al que sólo comprende su compañero de cuarto (Paul Bettany). Por fin, Nash esboza una revolucionaria teoría y consigue una plaza de profesor en el MIT. Alicia Lardé (Jennifer Connelly), una de sus alumnas, lo deja fascinado al mostrarle que las leyes del amor están por encima de las de las matemáticas. Gracias a su prodigiosa habilidad para descifrar códigos es reclutado por Parcher William (Ed Harris), del departamento de Defensa, para ayudar a los Estados Unidos en la Guerra Fría contra la Unión Soviética. "
-    },
-    {
-      "id": 17,
-      "nombre": "Seven ",
-      "dirección": "David Fincher",
-      "año": 1995,
-      "clasificacion": "Suspense",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7YWDPd586e-sTo1RuU9tw3-QMl0mWJJGcaVptlB19sV4UqzcM",
-      "sinopsis": "El veterano teniente Somerset (Morgan Freeman), del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso e impulsivo detective David Mills (Brad Pitt). Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta."
-    },
-    {
-      "id": 18,
-      "nombre": "Memento",
-      "dirección": "Christopher Nolan",
-      "año": 2020,
-      "clasificacion": "Suspense",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQaOwyG_J0_gmx93CUut9fBcAVBgxNaUgpmDxKGSf2GDypiQly",
-      "sinopsis": "La memoria de Leonard, un investigador de una agencia de seguros, está irreversiblemente dañada debido a un golpe sufrido en la cabeza cuando intentaba evitar el asesinato de su mujer: éste es el último hecho que recuerda del pasado. La memoria reciente la ha perdido: los hechos cotidianos desaparecen de su mente en unos minutos. Así pues, para investigar e intentar vengar el asesinato de su esposa tiene que recurrir a la ayuda de una cámara instantánea y a las notas tatuadas en su cuerpo."
-    },
-    {
-      "id": 19,
-      "nombre": "El tiempo contigo",
-      "dirección": "Makoto Shinkai",
-      "año": 2019,
-      "clasificacion": "Animación ",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLg1rK2amIfzb15r_5sui_3P-xx-IS8qITTWM_jMna3ROcBFs",
-      "sinopsis": "Hotaka Morishima es un estudiante de secundaria que se muda a Tokio para dejar atrás su vida en una isla aislada del mundo. Allí conocerá a Akina Amano, una chica con el misterioso poder de manipular y controlar el clima a su antojo. Dirigida y escrita por Makoto Shinkai (Your Name)."
-    },
-    {
-      "id": 20,
-      "nombre": "Brave (Indomable) ",
-      "dirección": "Mark Andrews, Brenda Chapman, Steve Purcell",
-      "año": 2012,
-      "clasificacion": "Animación",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHwf3UbnWa47Eah2ZWX25MfuVWUk6Q9-qs_eHOv54CaekHJKzh ",
-      "sinopsis": "Merida, la indómita hija del Rey Fergus y de la Reina Elinor, es una hábil arquera que decide romper con una antigua costumbre, que es sagrada para los señores de la tierra: el gigantesco Lord MacGuffin, el malhumorado Lord Macintosh y el cascarrabias Lord Dingwall. Las acciones de Merida desencadenan el caos y la furia en el reino. Además, pide ayuda a una sabia anciana que le concede un deseo muy desafortunado. La muchacha tendrá que afrontar grandes peligros antes de aprender qué es la auténtica valentía."
-    },
-    {
-      "id": 21,
-      "nombre": "50 primeras citas",
-      "dirección": "Peter Segal",
-      "año": 2004,
-      "clasificacion": "Comedia",
-      "caratula": "https://upload.wikimedia.org/wikipedia/en/9/9d/50FirstDates.jpg ",
-      "sinopsis": "Henry Roth (Adam Sandler) es un biólogo marino de Hawaii que se pasa la vida inventando excusas para no comprometerse con las numerosas chicas con las que sale. Sin embargo, cuando conoce a la chica de sus sueños, la encantadora Lucy Whitmore (Drew Barrymore), surge un extraño problema en la relación: cuando Lucy se levanta por las mañanas no recuerda absolutamente nada de lo ocurrido el día anterior, de modo que Henry no tendrá más remedio que reconquistarla cada día."
-    },
-    {
-      "id": 22,
-      "nombre": "El diario de Noa ",
-      "dirección": "Nick Cassavetes",
-      "año": 2004,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZfAvQ4lq-p5CrO2gPGnTT7wdMdSq7BVkQwD68-fLvchs7SXy6",
-      "sinopsis": "En una residencia de ancianos, un hombre (James Garner) lee a una mujer (Gena Rowlands) una historia de amor escrita en su viejo cuaderno de notas. Es la historia de Noah Calhoun (Ryan Gosling) y Allie Hamilton (Rachel McAdams), dos jóvenes adolescentes de Carolina del Norte que, a pesar de vivir en dos ambientes sociales muy diferentes, se enamoraron profundamente y pasaron juntos un verano inolvidable, antes de ser separados, primero por sus padres, y más tarde por la guerra."
-    },
-    {
-      "id": 23,
-      "nombre": "Cinema Paradiso",
-      "dirección": "Giuseppe Tornatore",
-      "año": 1988,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ83RImkhpD0SGa5HAhj7g2aMEqX2c4c8cqLdjmD7WvdZxlgJ2y",
-      "sinopsis": "'Cinema Paradiso' es una historia de amor por el cine. Narra la historia de Salvatore, un niño de un pueblecito italiano en el que el único pasatiempo es ir al cine. Subyugado por las imágenes en movimiento, el chico cree ciegamente que el cine es magia; pero, un día, Alfredo, el operador, accede a enseñarle al pequeño los misterios y secretos que se ocultan detrás de una película. Salvatore va creciendo y llega el momento en el que debe abandonar el pueblo y buscarse la vida. Treinta años después recibe un mensaje, en el que le comunican que debe volver a casa."
-    },
-    {
-      "id": 24,
-      "nombre": "Bienvenidos al Sur",
-      "dirección": "Luca Miniero",
-      "año": 2010,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSy8C0URe9PHPIEoC_an05sqS9YSK3r7mU2otoTDIBvq-l8E-OI",
-      "sinopsis": "Remake de la exitosa comedia francesa Bienvenidos al Norte. Alberto (Claudio Bisio) trabaja en la oficina de Correos de una pequeña ciudad del Norte de Italia. Presionado por su mujer (Angela Finocchiaro), está dispuesto a todo con tal de conseguir el traslado a Milán, incluso a fingirse inválido; pero, cuando el truco es descubierto, lo sancionan mandándolo a un pueblecito de Campania, lo cual para un italiano del Norte es una auténtica pesadilla. Solo y lleno de prejuicios se traslada a la que considera la tierra de la camorra, de los paletos, los holgazanes. Su sorpresa será enorme cuando descubra un lugar fascinante, unos colegas entrañables, gentes muy hospitalarias y, sobre todo, un gran amigo, el cartero Mattia (Alessandro Siani). Ahora el problema es cómo contárselo a su mujer y a sus viejos amigos."
-    },
-    {
-      "id": 25,
-      "nombre": "Capitán Fantastic",
-      "dirección": "Matt Ross",
-      "año": 2016,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQurE1JZxQwzYW0W0kojuEAiAY8AHna98BEd9lEh8_J5tvPG71x",
-      "sinopsis": "Ben (Viggo Mortensen) es un hombre que ha pasado diez años viviendo en los remotos bosques situados en el noroeste de los Estados Unidos criando a sus seis hijos, varios de ellos junto a su mujer. Aislados totalmente de la vida moderna, de las comodidades de las ciudades y de la sociedad de consumo, Ben es un padre devoto que ha inculcado en sus hijos una peculiar forma de pensar y vivir la vida. Sin embargo, una trágica noticia hace que la peculiar familia deba dejar temporalmente su modo de vida en la naturaleza y volver a la civilización."
-    },
-    {
-      "id": 26,
-      "nombre": "Figuras ocultas",
-      "dirección": "Theodore Melfi",
-      "año": 2016,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRFml8u_suhGoljFnZbolt0rTv1jtAyAQ9YKLAi9feMMnv9BMg7",
-      "sinopsis": "Narra la historia nunca contada de tres brillantes mujeres científicas afroamericanas, Katherine G. Johnson (Taraji P. Henson), Dorothy Vaughan (Octavia Spencer) y Mary Jackson (Janelle Monáe), que trabajaron en la agencia espacial NASA a comienzos de los años sesenta (en plena carrera espacial, y asimismo en mitad de la lucha por los derechos civiles de los negros estadounidenses) en el ambicioso proyecto de poner en órbita al astronauta John Glenn."
-    },
-    {
-      "id": 27,
-      "nombre": "Hacia rutas salvajes (Into the Wild) ",
-      "dirección": "Sean Penn",
-      "año": 2007,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZRtD6fGBg0VYKmOYjBW00xEGB4a9jNjAm_zVLsCgfTmGijle",
-      "sinopsis": "A principios de los años noventa, el joven e idealista Christopher McCandless (Emile Hirsch), adopta el nombre de Alexander Supertramp, deja sus posesiones y sus ahorros a la beneficencia y abandona el mundo civilizado con rumbo a la salvaje Alaska para entrar en contacto con la Naturaleza y descubrir el verdadero sentido de la vida. Adaptación del best-seller de Jon Krakauer, basado en las notas del diario de McCandless."
-    },
-    {
-      "id": 28,
-      "nombre": "Atrápame si puedes",
-      "dirección": "Steven Spielbergº",
-      "año": 2002,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSfC83dASp3T-UhezcBLOSm_FUL-pntwNQYqKIcIvHZi1K7JDWt",
-      "sinopsis": "Basada en una historia real. En los años sesenta, Frank W. Abagnale (Leonardo DiCaprio) era un joven y escurridizo delincuente que adoptaba diversas identidades (médico, abogado o copiloto de líneas aéreas). Carl Hanratty (Tom Hanks), un agente del FBI, tenía la misión de seguir su pista y capturarlo para llevarlo ante la justicia, pero Frank siempre iba un paso por delante de él. "
-    },
-    {
-      "id": 29,
-      "nombre": "La teoría del todo",
-      "dirección": "James Marsh",
-      "año": 2014,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZoyUs7KW3ukXRnZ5DqSa4ZlSA9IMuNKXaA529TuQ2wI-zCk4D",
-      "sinopsis": "Narra la relación entre el célebre astrofísico Stephen Hawking y su primera mujer, Jane, desde que ambos se conocieron siendo estudiantes en la Universidad de Cambridge a principios de los 60 y a lo largo de 25 años, especialmente en su lucha juntos contra la enfermedad degenerativa que postró al famoso científico en una silla de ruedas."
-    },
-    {
-      "id": 30,
-      "nombre": "22 de julio",
-      "dirección": "Paul Greengrass",
-      "año": 2018,
-      "clasificacion": "Suspense ",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIr0O013IatkzNcGhePEVCSpy3S3E0LK9Wh1M5XZABJsUendZ1",
-      "sinopsis": "Narra el atentado terrorista más letal de la historia de Noruega y los sucesos posteriores. El 22 de julio de 2011, un ultraderechista radical detonó un coche bomba en Oslo y luego disparó a los adolescentes de un campamento de verano en la isla de Utøya. Murieron 77 personas. A través de los ojos de un superviviente, y en paralelo a su recuperación física y emocional, 22 de julio retrata la trayectoria del país para lograr su curación y reconciliación."
-    },
-    {
-      "id": 31,
-      "nombre": "Lo imposible",
-      "dirección": "J.A. Bayona ",
-      "año": 2012,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_BOtLtTzewXsP08gGQWzKFXg6EVixNd3VVYMXdfZDSPUsbrH",
-      "sinopsis": "Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia."
-    },
-    {
-      "id": 32,
-      "nombre": "Los otros",
-      "dirección": "Alejandro Amenábar",
-      "año": 2001,
-      "clasificacion": "Terror",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2Cyyx7UOTHevgO-RdL0K5WcVJeKgFBHGWwXTkPC-j4uXHfA0",
-      "sinopsis": "Isla de Jersey, 1945. La Segunda Guerra Mundial ha terminado, pero el marido de Grace (Nicole Kidman) no vuelve. Sola en un aislado caserón victoriano de la isla de Jersey, educa a sus hijos dentro de rígidas normas religiosas. Los niños sufren una extraña enfermedad: no pueden recibir directamente la luz del día. Los tres nuevos sirvientes que se incorporan a la vida familiar deben aprender una regla vital: la casa estará siempre en penumbra, y nunca se abrirá una puerta si no se ha cerrado la anterior. Pero el estricto orden que Grace ha impuesto se verá desafiado por circunstancias que escapan a su control."
-    },
-    {
-      "id": 33,
-      "nombre": "Tesis",
-      "dirección": "Alejandro Amenábar",
-      "año": 1996,
-      "clasificacion": "Suspense",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNuJrnzoO51Nv4Wo4FJdMtQr3gf2EzjRr01ZfwadBGIwEIIsdw",
-      "sinopsis": "Ángela, estudiante de Imagen, está preparando una tesis sobre la violencia audiovisual. Como complemento a su trabajo, su director de tesis se compromete a buscar en la videoteca de la facultad material para ella, pero al día siguiente es hallado muerto. Ángela conoce a Chema, un compañero experto en cine gore y pornográfico, y a Bosco, un extraño chico, amigo íntimo de una joven asesinada en una snuff movie."
-    },
-    {
-      "id": 34,
-      "nombre": "The Mexican",
-      "dirección": "Gore Verbinski",
-      "año": 2001,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTAfqXn37vJTTi07f3Im7xUlcAsAx5hoDTtfcwqDtO3XmmidKNS",
-      "sinopsis": "Jerry Welbach acaba de recibir dos ultimátum: el primero de su jefe, un mafioso que le encarga ir a México para recuperar la Mexicana, una antigua y valiosa pistola, y el segundo de su novia Samantha, que le exige que ponga fin a su relación con la mafia. Jerry piensa que seguir vivo es lo más importante, aunque eso suponga tener problemas con Samantha, así que viaja a México a buscar el arma, sobre la que existe una maldición."
-    },
-    {
-      "id": 35,
-      "nombre": "Grease",
-      "dirección": "Randal Kleiser",
-      "año": 1978,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkFwWpviFC6QVOPcm3kl-762D_gJy0XepDdl3mauNAGBnLVca3",
-      "sinopsis": "Verano de 1959. Sandy (Olivia Newton John) y Danny (John Travolta) han pasado un romántico y maravilloso verano juntos, pero, cuando las vacaciones se acaban, sus caminos se separan. Inesperadamente, vuelven a verse en el instituto Rydell, pero la actitud de Danny ya no es la misma: ya no es el chico encantador y atento que encandiló a Sandy; ahora es engreído e insensible."
-    },
-    {
-      "id": 36,
-      "nombre": "El Rey León ",
-      "dirección": "Rob Minkoff, Roger Allers",
-      "año": 1994,
-      "clasificacion": "Animación",
-      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR99XsrvHv18Kc6zjVY-K0YSMA0dMhUqJRHSgIEF-uUfA6XmR-X",
-      "sinopsis": "La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado a exiliarse. Durante su destierro, hará buenas amistades e intentará regresar para recuperar lo que legítimamente le corresponde."
-    },
-    {
-      "id": 37,
-      "nombre": "El caso Bourne",
-      "dirección": "Doug Liman",
-      "año": 2002,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxS82BNWfAqupS7v8ruj_hQICxMqyWOU9YP4O3cCnbwNAGTvED",
-      "sinopsis": "Un hombre amnésico es rescatado por la tripulación de un barco pesquero italiano cuando flota a la deriva en el mar. No lleva nada consigo. Sólo las balas que lleva clavadas en la espalda y un número de cuenta de un banco suizo que lleva adherido a la cadera. Carece de identidad y de pasado, pero posee unas serie de talentos extraordinarios en artes lingüísticas, marciales y de autodefensa que sugieren una profesión de riesgo. Confuso y desorientado, emprende una frenética búsqueda para descubrir quién es y por qué su vida ha tomado un giro tan peligroso."
-    },
-    {
-      "id": 38,
-      "nombre": "Love Actually",
-      "dirección": "Richard Curtis",
-      "año": 2003,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWEfceOiWxyFKLLF6l8nsnuO2Ntyzltl8VKpg2ThV3M0g_t-7c",
-      "sinopsis": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. Love Actually es una manera abreviada de decir “Love Actually Is All Around” y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor."
-    },
-    {
-      "id": 39,
-      "nombre": "Las dos caras de la verdad",
-      "dirección": "Gregory Hoblit",
-      "año": 1996,
-      "clasificacion": "Suspense",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9dsE5VGNO-vGRyaZ8yRYaFtyTtSrXsG4F2nQSyRcTM7r6xVKO",
-      "sinopsis": "Martin Vail (Richard Gere), un ambicioso abogado de Chicago, es capaz de aceptar cualquier caso con tal de salir en la prensa. Un día decide ocuparse de uno que parece imposible de ganar: la defensa de Aaron (Edward Norton), un joven que es acusado del asesinato del arzobispo de Chicago, tras ser detenido mientras huía del escenario del crimen."
-    },
-    {
-      "id": 40,
-      "nombre": "Ocho apellidos vascos",
-      "dirección": "Emilio Martínez-Lázaro",
-      "año": 2014,
-      "clasificacion": "Comedia",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRl6F9g3ctCIhA6_D0R6cCje5DUmKUOSCt9Jcaqguurzl5izOe",
-      "sinopsis": "Rafa (Dani Rovira) es un joven señorito andaluz que no ha tenido que salir jamás de su Sevilla natal para conseguir lo único que le importa en la vida: el fino, la gomina, el Betis y las mujeres. Todo cambia cuando conoce una mujer que se resiste a sus encantos: es Amaia (Clara Lago), una chica vasca. Decidido a conquistarla, se traslada a un pueblo de las Vascongadas, donde se hace pasar por vasco para vencer su resistencia. Adopta el nombre de Antxon y varios apellidos vascos: Arguiñano, Igartiburu, Erentxun, Gabilondo, Urdangarín, Otegi, Zubizarreta... y Clemente."
-    }
-  ],
-  "clasificaciones": [
-    {
-      "nombre": "Drama",
-      "id": 1
-    },
-    {
-      "nombre": "Comedia",
-      "id": 2
-    },
-    {
-      "nombre": "Terror",
-      "id": 3
-    },
-    {
-      "nombre": "Acción",
-      "id": 4
-    },
-    {
-      "nombre": "Suspense",
-      "id": 5
-    },
-    {
-      "nombre": "Animación",
-      "id": 6
-    }
-  ],
-  "users": [
-    {
-      "email": "user@mail.com",
-      "password": "$2a$10$R2UjeVnxU0jTX4SuIGL6feqh0f8mb8dsfzQNE5NaEAyAnieZlxak.",
-      "id": 1
-    },
-    {
-      "email": "oscar@mail.com",
-      "password": "$2a$10$tuWKb7LaCdsHgsJq/awomObf8aVoWOxWXZ9Ilg9DCuwx2QFXa1WmW",
-      "id": 2
-    },
-    {
-      "email": "rocio@mail.com",
-      "password": "$2a$10$44Y5HuIAm/Of4jRJ3IprvO8ydvnEVS8385yFbjzDcNp/g4X.h4Al.",
-      "id": 3
-    },
-    {
-      "email": "alex@mail.com",
-      "password": "$2a$10$EHVwQp22g0toQvMccz1xf.slXTI7ECyOHD0BszVl6hfe8rz3YDbnK",
-      "id": 4
-    },
-    {
-      "email": "lorenzo@mail.com",
-      "password": "$2a$10$oyq83vSsPm9OjsfxDAnPEupaQNrzV5ZrtnudJJ7ZzqZfXYYcBVBa.",
-      "id": 5
-    },
-    {
-      "email": "francesco@mail.com",
-      "password": "$2a$10$R7h1iM4zZ5nyEN/GJVY/gOqmeQT/TAWLgr5nbzxuX64KwfcfBvEUO",
-      "id": 6
-    },
-    {
-      "email": "julia@mail.com",
-      "password": "$2a$10$hdGY8divb/P56sso2iEzl.J8thCbO334V7cgi1tly9lxf0KUQASKa",
-      "id": 7
-    }
-  ],
-  "comments": [
-    {
-      "titulo": "Estereotipada",
-      "cuerpo": "La historia de amor acompaña, pero hasta allí. En ese sentido, es una comedia del montón, oportuna, que exprime una necesidad. La de la risa de España y Euskadi",
-      "usuarioId": 1,
-      "puntuacion": 3,
-      "peliculaId": 40
-    },
-    {
-      "titulo": "Tiene ritmo y suspense",
-      "cuerpo": "Excelente película, una trama inteligente, bien llevada y un desenlace que deja mudo al espectador. Excelentes actuaciones",
-      "usuarioId": 2,
-      "puntuacion": 4,
-      "peliculaId": 39
-    },
-    {
-      "titulo": "Muy buena",
-      "cuerpo": "De las mejores comedias romanticas que se pueden ver no solo en época navideña a pesar de estar enfocada en esas fechas. Buenas historias entrelazadas entre si, buena banda sonora, buen reparto y buen desenlace.",
-      "usuarioId": 3,
-      "puntuacion": 5,
-      "peliculaId": 38
-    },
-    {
-      "titulo": "Genial, tiene de todo",
-      "cuerpo": "EMagníficamente realizada e interpretada. Obviamente no toda la novela de Robert Ludlum cabe en la peli aunque está resuelta con verdadero talento y maestría.La suelo recomendar en muchas ocasiones, en sus emisiones televisivas.",
-      "usuarioId": 4,
-      "puntuacion": 5,
-      "peliculaId": 37
-    },
-    {
-      "titulo": "Emocionante",
-      "cuerpo": "Una obra de arte hecha película, el rey león con su gran animación su grandiosa Banda sonora de Hans zimmer y su gran mensaje de vida es de las grandes películas de Disney o quizá la mejor del estudio, esta quizá sea la mejor película animada de todos los tiempos y una de las mejores del cine, así el rey de todas las películas animadas se para en alto y llega a la grandeza de Disney, una obra maestra que quedara para  siempre, Hakuna matata llegó para quedarse como parte cultural del cine.",
-      "usuarioId": 5,
-      "puntuacion": 5,
-      "peliculaId": 36
-    },
-    {
-      "titulo": "Decepcionante",
-      "cuerpo": "Pues Sandy al final cambio para gustarle al danny, desde su vestimenta, a su tono de voz y hasta fumar, no vale la pena echarte a perder los pumones por un vato nalgas miadas, que trato de abusar de ella en el coche en la pelicula, el mensaje de la pelicula fue, cambia todo de ti pra gustarle a un chico.",
-      "usuarioId": 6,
-      "puntuacion": 2,
-      "peliculaId": 35
-    },
-    {
-      "titulo": "No decepciona a nadie",
-      "cuerpo": " Posee unos giros sorprendentes bien expuestos en un hábil guion aunque con disparatadas aventuras que divierten al espectador y en ningún momento pesan, a pesar de la larga duración del film, que posee momentos de suspense, de comedia y hasta alguna que otra sorpresa. La cinta gana muchos enteros cuando entra en escena James Gandolfini, en el papel de un sensible asesino generoso, algo inhabitual, que casi le convierte en el protagonista. El producto no engaña a nadie que vaya a ver una entretenida comedia y disfrutar de la presencia de estos actores con una interesante banda sonora de Alan Silvestri.",
-      "usuarioId": 7,
-      "puntuacion": 5,
-      "peliculaId": 34
-    },
-    {
-      "titulo": "¿Crees que una película puede matar a una persona?",
-      "cuerpo": "Que gran peli! la descubrí tan tarde que me da pena. Se tiene que contextualizar al momento que lo hicieron, pero aun asi es muy actual el manejo de la cámara y el sonido. La premisa es tremenda, entra en mi top de películas españolas.",
-      "usuarioId": 8,
-      "puntuacion": 5,
-      "peliculaId": 33
-    },
-    {
-      "titulo": "Genial",
-      "cuerpo": "Una gran pelicula de las pocas de genero de terror que realmente valen la pena, las actuacion impecables el giro en la trama fue muy bien estructurado, consecuente con la historia un final que deja un sabor amargo, por la final perturbador de los personajes el suspenso que te sumerge en la agonia de su locura es maravilloso, recomendado.",
-      "usuarioId": 9,
-      "puntuacion": 4,
-      "peliculaId": 32
-    },
-    {
-      "titulo": "La recomiendo",
-      "cuerpo": "Espectacular... Es una película que muestra el valor del amor en la familia y las ganas de volver a reencontrarse con los seres queridos y no darse por vencidos a pesar de todas las adversidades que se atraviesen... 100% recomendada",
-      "usuarioId": 10,
-      "puntuacion": 4,
-      "peliculaId": 31
-    },
-    {
-      "titulo": "Da mucho que pensar",
-      "cuerpo": "Recomendable, un poco lenta la trama al final pero retrata la realidad de ese día, imágenes sensibles, por la crueldad de las ejecuciones.",
-      "usuarioId": 11,
-      "puntuacion": 3,
-      "peliculaId": 30
-    },
-    {
-      "titulo": "No me convenció",
-      "cuerpo": "Mala, o mediocre, es una cursilería que se recarga en el nombre de un científico muy importante pero que no logra decirte nada por si misma, y que a través de técnicas manipuladoras y explotadas al cansancio en cualquier telenovela como el gloom fotográfico, música que entra casi a huevo para darte una pista sobre qué rayos sentir en la escena, flares y colorcitos Instagrameros, diálogos bobitos , nos van mostrando la historia nada objetiva de un hombre (  que ya sabíamos) que va terminar en silla de ruedas pero no nos muestra un conflicto más allá de este, dándonos a cambio música bonita y reciclada con un semifinal que no justifica ni el nombre, ni el montaje en reversa que a simple vista podría hacernos pensar en una alegoría que cumple su entelequia rimbombante  al igual que el speech que da Hawking para ganarse el aplauso con sensación de esperanza de contenido vacuo y esquivo tipo político mexicano .... Las actuaciones y caracterizaciones están de 10!!!.",
-      "usuarioId": 12,
-      "puntuacion": 2,
-      "peliculaId": 29
-    },
-    {
-      "titulo": "De 5 estrellas",
-      "cuerpo": "las películas basadas  en hechos reales , como atrapame si puedes, nos llevan a conocer el ingenio, estrategia e inteligencia de este personaje, Con la interpretación de excelentes actores, y el lujo del director spelberg merece las 5 estrellas.",
-      "usuarioId": 13,
-      "puntuacion": 5,
-      "peliculaId": 28
-    },
-    {
-      "titulo": "Excelente película",
-      "cuerpo": "Esta película es increíble si la vemos por su fotografía donde se ve hermosos paisajes que son dignos de admirar o poner pausa y tomar un vistazo a los detalles de toda la escena. Viendo a Cristopher o Alexander si bien comparto su ideal de como a veces el sistema es algo que nosotros debemos vencer o huir no creo que sea la mejor idea lo que el hizo su idea de la naturaleza era que está era bella y si lo es pero también la naturaleza puede ser cruel y alex no estaba preparado para eso por lo que término muriendo por sus propias acciones sin haberlo planificado antes pero es bueno saber que muchos se inspiraron a base de él claro no cometiendo los mismo errores pero dispuestos a salir del sistema para evitar pretender o tener cosas que no necesitamos.",
-      "usuarioId": 14,
-      "puntuacion": 5,
-      "peliculaId": 27
-    },
-    {
-      "titulo": "Maravillosa",
-      "cuerpo": "Una maravilla de película. Bien narrada, con grandes personaje y que muestra una realidad vivida. No hay un solo momento desperdiciado y deja grandes lecciones. La actuación de Taraji Henson es magistral y es inevitable no sentir cariño y admiración hacia su personaje. Es extraño ver a Jim Parsons en otra piel distinta a la de Sheldon, pero su personaje también aporta. Es un largo camino para luchar contra las injusticias, pero esta película lo hace muy bien.",
-      "usuarioId": 15,
-      "puntuacion": 5,
-      "peliculaId": 26
-    },
-    {
-      "titulo": "Se ha convertido en una de mis películas favoritas",
-      "cuerpo": "Un retrato magnífico y lucido sobre las contradicciones de nuestra sociedad en decadencia. El film muestra como un padre alecciona minuciosa y cariñosamente a sus hijos, los cuales crecen fuertes intelectual y físicamente pero adoleciendo logícamente de las habilidades necesarias para integrarse en la sociedad. Me gusta mucho la capacidad del personaje principal de darse cuenta de que no puede anteponer sus ideales al bienestar de sus hijos. Magnífico reparto.",
-      "usuarioId": 16,
-      "puntuacion": 5,
-      "peliculaId": 25
-    },
-    {
-      "titulo": "Mejor la versión original",
-      "cuerpo": "Dos únicas consideraciones, que aunque obvias nunca viene mal recordar: 1. La versión original siempre será mejor que la que nos traigan a España. Si alguien tiene la oportunidad de verla con subtítulos, que no deje de hacerlo. 2. NO ver, repito, NO ver bajo ningún concepto si la excesiva gesticulación y/o volumen de los actores italianos causa jaqueca, estrés o irritación. Gran parte del encanto de esta película reside justo en eso.",
-      "usuarioId": 17,
-      "puntuacion": 3,
-      "peliculaId": 24
-    },
-    {
-      "titulo": "Una obra de arte mayor",
-      "cuerpo": "Increíble que un Director como Tornatore con sólo 33 años haya podido hacer este CAPOLAVORO, como dicen los italianos... Un film completo: en la  temática, en el tratamiento delicado de los sentimientos y frustraciones... En la reconstrucción de las épocas... En la fotografía, en la MÚSICA maravillosa de Morricone... Y los actores, notables todos, metiéndose en la piel de cada personaje a la perfección...!!! ... EXCELENTE TODO Y UN MODELO A ADMIRAR (IMPOSIBLE SEGUIR), POR QUIENES QUIEREN HACER DEL 7mo. ARTE ALGO REALMENTE MARAVILLOSO...  VOY A DECIR ALGO ANTIPÁTICO, PERO REAL Y YO LO SIENTO ASÍ: DIFÍCILMENTE, EL CINE QUE NO SEA EUROPEO, PUEDA HACER ESTAS  COSAS...",
-      "usuarioId": 18,
-      "puntuacion": 5,
-      "peliculaId": 23
-    },
-    {
-      "titulo": "Maravillosa",
-      "cuerpo": "Una maravillosa historia de un amor  al que ni el Alzheimer pudo vencer. Actuaciones maravillosas de actores inolvidables",
-      "usuarioId": 19,
-      "puntuacion": 5,
-      "peliculaId": 22
-    },
-    {
-      "titulo": "La puedo ver mil veces y no me canso",
-      "cuerpo": "Me encantó muy recomendada, es tan divertida que la vuelvo a ver y nunca me aburre",
-      "usuarioId": 20,
-      "puntuacion": 4,
-      "peliculaId": 21
-    },
-    {
-      "titulo": "Revolucionaria",
-      "cuerpo": "Peculiar película de terror que ofrece algo distinto a lo que la mayoría espera sin dejar de sentirse como algo especial. El mejor trabajo en la carrera de M. Night Shyamalan obviamente, la película empieza de manera oscura, continua de manera alucinante, y concluye aun mas impactante, con uno de los giros de trama supremos del cine. Aunque es verdad que la cantidad de terror en la película es relativamente poco constante, se balancea entre el drama psicológico y la porción del miedo a los fantasmas con una atmosfera tan espeluznante que evita sentirse aburrida. También es un refuerzo que El Sexto Sentido (1999) tiene un reparto genial, con el joven Haley Joel Osment brindando sentimiento en cada escena junto al solido Bruce Willis. Es profunda y excepcional, se merece la medalla de oro.",
-      "usuarioId": 1,
-      "puntuacion": 5,
-      "peliculaId": 1
-    },
-    {
-      "titulo": "Absurda",
-      "cuerpo": "Contrariamente de lo que opina mucha gente que ha visto esta (idiotez) de mediados de los 90, tengo que decir que desde mi punto de vista es una película bastante mediocre, se adorna con extrema violencia sin necesidad, diálogos delirantes aunque a veces cómicos pero soeces. Es absurda en sí misma, la falta de talento del director se ve compensada con la sobreactuacion de actores que no pueden hacer más que rendir al mínimo, Bruce Willis está de pena, sólo salva Uma Thurman con un papel tan resultón como zafio. En resumen una espantajada más de Tarantino como nos tiene acostumbrados...",
-      "usuarioId": 2,
-      "puntuacion": 1,
-      "peliculaId": 2
-    },
-    {
-      "titulo": "Más de lo mismo",
-      "cuerpo": "Cada vez que este tío dirige, un Oscar se suicida.",
-      "usuarioId": 3,
-      "puntuacion": 1,
-      "peliculaId": 3
-    },
-    {
-      "titulo": "Disfrutable",
-      "cuerpo": "La fotografía, escenografía, las batallas son brutales, pero esos toques de villano de Disney, los monstruitos, el lobo salido del mismísimo averno pues como q no. En fin, muy disfrutable, sobre todo si esos detalles no te importan.",
-      "usuarioId": 4,
-      "puntuacion": 3,
-      "peliculaId": 4
-    },
-    {
-      "titulo": "Obra maestra de culto",
-      "cuerpo": "La química de Hopkins y Foster es una delicia. Los simbolismos, el guión, las escenas macabras y bellas y la banda sonora, entre otras cosas mas, me parecen para destacar",
-      "usuarioId": 5,
-      "puntuacion": 5,
-      "peliculaId": 5
-    },
-    {
-      "titulo": "No te la puedes perder",
-      "cuerpo": "Una película que te tocará el corazón, la historia de Forrest Gump es simplemente conmovedora e inspiradora. Es fascinante el hecho de que él mismo la narre, nos hace ver sus sentimientos y sus experiencias a lo largo de su vida, su gran amor Jenny, sus amistades, su forma tan inocente de ver el mundo y, sobre todo, su resiliencia. Sin duda, una de esas películas para ver antes de morir.",
-      "usuarioId": 6,
-      "puntuacion": 5,
-      "peliculaId": 6
-    },
-    {
-      "titulo": "Hermosa en todos los sentidos",
-      "cuerpo": "Además de la bella introducción a la cultura mexicana, a mi me llevó hasta mi infancia al lado de mi bisabuela, que me crió. la perseverancia de Miguel por lograr sus sueños y cómo el amor filial está por encima de cualquier cosa, un tema muy necesario en nuestros días y en mi criterio, tratado con brillantez. Agradecida por COCO",
-      "usuarioId": 7,
-      "puntuacion": 5,
-      "peliculaId": 7
-    },
-    {
-      "titulo": "La banda sonora es brutal",
-      "cuerpo": "Y los genios de PIXAR le dan al clavo una vez más. Luca (2021) es una maravillosamente conmovedora historia de aceptación que a mi parecer va a pasar a ser vista como una de las películas mas visualmente bellas y fantásticas de 2021. Saliéndose ligeramente de los aspectos tradicionales del estudio, la película presenta personajes muy memorables entre los que destacan nuestros jóvenes héroes Luca y Alberto siempre doblados con encanto y corazón. La historia basada literalmente en el concepto de pez fuera del agua impresiona astutamente generando momentos realmente únicos sin perder nunca el sentido del humor que la hace mas agradable cuando se vuelve algo deprimente. Cualquiera que se sienta incapaz de encajar podrá amar esta película y su moraleja sobre crecer y su sugerencia sobre la diversidad, pero si te adentras demasiado en la película, quizás te ponga sentimental. Homenaje a la cultura italiana, es ideal para disfrutar en familia.",
-      "usuarioId": 8,
-      "puntuacion": 5,
-      "peliculaId": 8
-    },
-    {
-      "titulo": "Tan genial como las demás",
-      "cuerpo": "Es tan genial , como todas las demás , para mi opinión Harry Potter y el prisionero de azkaban y  el misterio del príncipe mestizo son las mejores, hasta el día de hoy no puedo de dejarlas de verlas una y otra vez ,  es de las mejores saga de todos los tiempos.",
-      "usuarioId": 9,
-      "puntuacion": 4,
-      "peliculaId": 9
-    },
-    {
-      "titulo": "Me decepcionó",
-      "cuerpo": "Muy mala, me decepcionó mucho. Me han encantado las películas de Harry Potter y todos los libros. Animales fantásticos 1 safa, la 2 es un desastre, poco se entiende, cortan cada 5 minutos todas las escenas para pasar a otra cosa completamente diferente y poco se entiende. Esta peli, no es tan rápida cómo la segunda, pero tampoco profundizan en nada. Q no estuviera Jonnhy Deep fue terrible y pusieron a un actor q en nada se le parece... Me costó asociarlo con Grindelwald. Al comienzo de la peli comienza como Bambi, y es demasiado fuerte para ser verdad, odie ese comienzo. Los actores los pusieron por ser protagonistas, pero no aportaban mucho... La novia de Scamander Tina?? Q paso con ella?? Fue rarísimo, apareció solo al final y no se entendía nada. Y Grindelwald... Todos sabían q era malo, todos.. Muy forzada la película.",
-      "usuarioId": 10,
-      "puntuacion": 2,
-      "peliculaId": 10
-    },
-    {
-      "titulo": "Cautivadora",
-      "cuerpo": "Siempre fue mi favorita al Oscar de este año, es sencillamente maravillosa y el mensaje que busca transmitir de inclusión a las personas con discapacidad es excelente, muy positivo e importante que sea retratado en la pantalla grande y visibilizado en la sociedad.",
-      "usuarioId": 11,
-      "puntuacion": 4,
-      "peliculaId": 11
-    },
-    {
-      "titulo": "Interesante",
-      "cuerpo": "Me resultó interesante pero no la recomiendo para aquellos que son sensibles a escenas grotescas u obscenas, ya que cuenta con un humor negro muy gráfico. Igual si eres impaciente, las 3 horas de duración pueden ser eternos si no sientes un interés o un engache a la trama",
-      "usuarioId": 12,
-      "puntuacion": 3,
-      "peliculaId": 12
-    },
-    {
-      "titulo": "No me convenció",
-      "cuerpo": "Respetable pero finalmente no convincente film fantástico-terrorífico, inscrito de hoz y coz en el (sub) género de casas encantadas.",
-      "usuarioId": 13,
-      "puntuacion": 2,
-      "peliculaId": 13
-    },
-    {
-      "titulo": "Es un emblema",
-      "cuerpo": "Ghostbusters no es una película, es todo un emblema de una generación: los años 80. Si piensas en ésta decada es inevitable mencionar ésta pelicula, que no tendría sentido sin la canción perfecta de Ray parker jr. , sin la inetervención del inconmensurable Bill Murray, sin la mitica ambulancia reconvertida, sin esas mochilas que lanzan rayos... en fin toda una iconografía que la convierte en algo inimitable y único",
-      "usuarioId": 14,
-      "puntuacion": 5,
-      "peliculaId": 20
-    },
-    {
-      "titulo": "De las mejores pelis de los 80",
-      "cuerpo": "La mejor pelicula para ver en familia un peliculón  the goonies es una película  magica y llena de aventura  te la recomiendo al 1000 por 1000 soy fan número  1 de los goonies",
-      "usuarioId": 15,
-      "puntuacion": 4,
-      "peliculaId": 14
-    },
-    {
-      "titulo": "Brillante",
-      "cuerpo": "Sin duda me encanto mucho la película porque plantea varios temas que invitan a reflexionar y está relacionado con la inteligencia lógica matemática ya que el actor es un genio matemático que puede tener de ciertos asuntos de la vida cotidiana, lo que le permite, por una parte, el encontrar importantes relaciones ocultas en las cosas, pero, por otra parte, esta misma habilidad lo hace perder su capacidad de distinguir entre lo real y lo imaginario",
-      "usuarioId": 16,
-      "puntuacion": 5,
-      "peliculaId": 15
-    },
-    {
-      "titulo": "Peliculón",
-      "cuerpo": "El mejor thriller de misterio y crimen por exelencia, está película me encanta, la he visto más de 40 veces y nunca me caso de ella,  es una joya desde donde lo mires, las actuaciones los apartados técnicos, la fantástica dirección de David Fincher, la música y el final, hacen que sea una película simplemente perfecta.",
-      "usuarioId": 17,
-      "puntuacion": 5,
-      "peliculaId": 16
-    },
-    {
-      "titulo": "La puedo ver 20 veces si quieres",
-      "cuerpo": "Como llevar una historia basica a una narrativa completamente unica y original, Planos convervadores y oscuros, hace que no puedas despegar los ojos de la pantalla, constantemente intentas encajar la piezas de este rompecabezas  y te cuestionas de si tu propia realidad es en verdad real o una propia construccion tuya para hacerte feliz/ . Eso sin decir las buenas actuaciones de personajes hace una peli de 10/10. 100% Recomendada.",
-      "usuarioId": 18,
-      "puntuacion": 5,
-      "peliculaId": 17
-    },
-    {
-      "titulo": "Me fascinó",
-      "cuerpo": "Una maravilla... La estaba buscando por la tele por bastante tiempo y hoy la encontré y me fascinó. Muy buena la película la dirección la animación los personajes y lo mejor fue los paisajes y la banda sonora",
-      "usuarioId": 19,
-      "puntuacion": 5,
-      "peliculaId": 18
-    },
-    {
-      "titulo": "No es la típica película de princesas",
-      "cuerpo": "En mi Opinion Merida es una de las princesas mas realistas que Pixar hace a su manera al mostrarnos lo que son capaces las mujeres como ella se centra mas la relación con su mama y eso me gusta de ella, a pesar de ser muy fantasiosa con toques de magia aun así esta cinta toca temas mas fuertes en la realidad en las relaciones familiares además que a pesar las diferencias que tienen deben amarse en los momentos mas necesarios y aceptarnos lo que somos y no poder cambiar.",
-      "usuarioId": 20,
-      "puntuacion": 4,
-      "peliculaId": 19
-    }
-  ]
+    "peliculas": [
+        {
+        "id": 1,
+        "nombre": "El sexto sentido",
+        "dirección": "M. Night Shyamalan",
+        "año": 1999,
+        "clasificacion": "Terror",
+        "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8cqibPp3XYq9TBV07zzClp64xHde3etHP0d432XM917HEbra1 ",
+        "sinopsis": "El doctor Malcom Crowe es un conocido psicólogo infantil de Philadelphia que vive obsesionado por el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cuando conoce a Cole Sear, un aterrorizado y confuso niño de ocho años que necesita tratamiento, ve que se le presenta la oportunidad de redimirse haciendo todo lo posible por ayudarlo. Sin embargo, el doctor Crowe no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados."
+        },
+        {
+        "id": 2,
+        "nombre": "Pulp Fiction",
+        "dirección": "Quentin Tarantino",
+        "año": 1994, 
+        "clasificacion": "Acción",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUTnNVTW8xT3y97qIZ8op9FNtIXzmp6TPDcC0qpqTvvKNV9YT ",
+        "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín."
+
+        },
+        {
+        "id": 3,
+        "nombre": "Todo Sobre Mi Madre",
+        "dirección": "Pedro Almodóvar",
+        "año": 1999,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQ-JpM4u-s1uu1_fE6Worg8SAl1YzkTUNv-i2u4GHxTE_9nKDn ",
+        "sinopsis": "Madrid. Manuela, una madre soltera, ve morir a su hijo el día en que cumple 17 años, por echarse a correr para conseguir el autógrafo de Huma Rojo, su actriz favorita. Destrozada, Manuela viaja entonces a Barcelona en busca del padre del chico."
+        },
+        {
+        "id": 4,
+        "nombre": "300",
+        "dirección": "Zack Snyder",
+        "año":2006,
+        "clasificacion": "Acción",
+        "caratula": "https://es.web.img3.acsta.net/medias/nmedia/18/67/71/17/20027466.jpg ",
+        "sinopsis": "Adaptación del cómic de Frank Miller (autor del cómic 'Sin City') sobre la famosa batalla de las Termópilas (480 a.C.). El objetivo de Jerjes, emperador de Persia, era la conquista de Grecia, lo que desencadenó las Guerras Médicas. Dada la gravedad de la situación, el rey Leónidas de Esparta (Gerard Butler) y 300 espartanos se enfrentaron a un ejército persa que era inmensamente superior. "
+        },
+        {
+        "id": 5,
+        "nombre": "El silencio de los corderos",
+        "dirección": "Jonathan Demme",
+        "año": 1991,
+        "clasificacion": "Suspense",
+        "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8Mj9G4tsKR_traZ-QZFhKEx9BRP6Gj9AiH8Hjm4_86ByxS99T ",
+        "sinopsis": "El FBI busca a Buffalo Bill, un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo recurren a Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado al Dr. Hannibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta del asesino que están buscando."
+        },
+        {
+        "id": 6,
+        "nombre": "Forrest Gump",
+        "dirección": "Robert Zemeckis",
+        "año": 1994,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgJaxEFJxdwh2SP1sAI92IQgaThjvJM6XSd1G2YEEqVwjqNnVF ",
+        "sinopsis": "Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presente la bella Jenny (Robin Wright), su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida."
+        },
+        {
+        "id": 7,
+        "nombre": "Coco",
+        "dirección": "Lee Unkrich, Adrián Molina",
+        "año": 2017,
+        "clasificacion": "Animación",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjw1xP61nhC8NCkGYlfqyan2ToW5OoGSclcw0IJTvOxBHttTfC ",
+        "sinopsis": "Miguel es un joven con el sueño de convertirse en leyenda de la música a pesar de la prohibición de su familia. Su ídolo es Ernesto de la Cruz, el músico y cantante más famoso de México. La pasión de Miguel le llevará a adentrarse en la Tierra de los Muertos, donde conocerá su verdadero legado familiar."
+        },
+        {
+        "id": 8,
+        "nombre": "Luca",
+        "dirección": "Enrico Casarosa",
+        "año": 2021,
+        "clasificacion": "Animación",
+        "caratula": "https://pics.filmaffinity.com/luca-907827591-large.jpg",
+        "sinopsis": "La historia se desarrolla en un hermoso pueblo al lado del mar en la Riviera Italiana. Es la del crecimiento de un niño que experimenta un verano inolvidable con helado, pasta e interminables viajes en scooter. Luca comparte estas aventuras con su nuevo mejor amigo, pero toda la diversión se ve amenazada por un gran secreto: es un monstruo marino de otro mundo ubicado justo debajo de la superficie del agua."
+        },
+        {
+        "id": 9,
+        "nombre": "Harry Potter y el misterio del príncipe",
+        "dirección": "David Yates",
+        "año": 2009,
+        "clasificacion": "Acción",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQreg_9XZMBINvVF4_RqJJoVg8QrI7zSJjEsJdrS6-zxk-R10Gz",
+        "sinopsis": "Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de Quidditch, los entrenamientos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte. El anciano director pedirá ayuda a Harry y juntos emprenderán un peligroso viaje. Para debilitar al enemigo, el joven mago cuenta con la ayuda de un viejo libro de pociones perteneciente a un misterioso personaje que se hace llamar el Príncipe Mestizo."
+        },
+        {
+        "id": 10,
+        "nombre": "Animales fantásticos: los secretos de Dumbledore",
+        "dirección": "David Yates",
+        "año": 2022,
+        "clasificacion": "Acción",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfMTr_m3ZP3gxpm3NkHiboJdnNgtfy8sJevxFygqaU10mYGyHM",
+        "sinopsis": "El malvado y poderoso mago Grindelwald sigue buscando adeptos a su causa, pero esta vez se transportará a todos los rincones y mundos mágicos existentes para obtener lo que quiere. Por otra parte, Dumbledore unirá a su propio ejército formado por Newt y Theseus Scamander, Jacob, entre otros, para poner fin a la guerra que está a punto de comenzar Grindelwald en su nombre. Mientras encuentran aliados y la manera de poner fin a esta oscura edad, el pasado de Dumbledore irá cada vez tomando más presencia en la historia entre él y su antiguo amigo Grindelwald, con quien le unen otros grandes lazos más allá de la enemistad. "
+        },
+        {
+        "id": 11,
+        "nombre": "CODA: Los sonidos del silencio",
+        "dirección": "Siân Heder ",
+        "año": 2021,
+        "clasificacion": "Drama ",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcROplcIHHqOkQnijBzaEu9MEw4dlucecOFv-lVEirUTx8LsOv_5 ",
+        "sinopsis": "Ruby (Emilia Jones) es el único miembro oyente de una familia de sordos. Ella es una CODA -child of deaf adult-. A sus 17 años, trabaja por la mañana con sus padres y su hermano en Gloucester, Massachusetts, antes de ir a clase, tratando de mantener a flote el negocio pesquero familiar. Ávida de encontrar nuevas aficiones, Ruby decide probar suerte en el coro de su instituto, donde no sólo descubre una latente pasión por el canto, sino también una fuerte atracción física por el chico con el que debe realizar un dueto. Su entusiasta profesor (Eugenio Derbez) ve algo especial en ella y la anima a que piense en la posibilidad de entrar en la escuela de música, algo que la obligaría a tener que tomar una decisión de cara a su futuro: o sus estudios, o su familia. "
+        },
+        {
+        "id": 12,
+        "nombre": "Babylon ",
+        "dirección": "Damien Chazelle ",
+        "año": 2022,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSfNTcwL6JJ0xMNn96x7TnYmrAGxY1fmDrFwBgsUORTvY9f48iT ",
+        "sinopsis": "Ambientada en Los Ángeles durante los años 20, cuenta una historia de ambición y excesos desmesurados que recorre la ascensión y caída de múltiples personajes durante una época de desenfrenada decadencia y depravación en los albores de Hollywood. "
+        },
+        {
+        "id": 13,
+        "nombre": "Escalera al infierno",
+        "dirección": "Brendan Muldowney ",
+        "año": 2022,
+        "clasificacion": "Terror ",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0Uido9Dr1OoMbBWUvzRB0N15mM85qiIc_8FPa0x6orVePs77n ",
+        "sinopsis": "La hija de Keira Woods desaparece misteriosamente en el sótano de su nueva casa. Pronto descubre que hay una entidad antigua y poderosa que controla su hogar a la que tendrá que enfrentar o arriesgarse a perder el alma de su familia para siempre. "
+        },
+        {
+        "id": 14,
+        "nombre": "Los Cazafantasmas ",
+        "dirección": "Ivan Reitman ",
+        "año": 1984,
+        "clasificacion": "Comedia ",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-gHIJ802JdeJ0aZ-v_LFgtswAsCs8d23qWn2Uc7AJleIBDgI ",
+        "sinopsis": "A los doctores Venkman, Stantz y Spengler, expertos en parapsicología, no les conceden una beca de investigación que habían solicitado. Al encontrarse sin trabajo, deciden fundar la empresa Los Cazafantasmas, dedicada a limpiar Nueva York de ectoplasmas. El aumento repentino de apariciones espectrales en la ciudad será el presagio de la llegada de un peligroso y poderoso demonio. "
+        },
+        {
+        "id": 15,
+        "nombre": "Los Goonies",
+        "dirección": "Richard Donner",
+        "año":1985,
+        "clasificacion": "Acción ",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTg2ECQIB3x6ryjJKlDea9uDp-ui5qChDa9U7I3itZgcc74mAXH",
+        "sinopsis": "Mikey es un niño de trece años que junto con su hermano mayor y sus amigos forman un grupo que se hacen llamar los Goonies. Un día deciden subir al desván de su casa, donde su padre guarda antigüedades. Allí encuentran el mapa de un tesoro perdido que data del siglo XVII, de la época de los piratas, y deciden salir a buscarlo repletos de espíritu aventurero. "
+        },
+        {
+        "id": 16,
+        "nombre": "Una Mente Maravillosa",
+        "dirección": "Ron Howard",
+        "año":2001,
+        "clasificacion": "Drama ",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRPlAbPBKfXVAWqYo-5Mxzdp0YLzDCa4jUGogXQVtlMoBSdT7dL ",
+        "sinopsis": "Obsesionado con la búsqueda de una idea matemática original, el brillante estudiante John Forbes Nash (Russell Crowe) llega a Princeton en 1947 para realizar sus estudios de postgrado. Es un muchacho extraño y solitario, al que sólo comprende su compañero de cuarto (Paul Bettany). Por fin, Nash esboza una revolucionaria teoría y consigue una plaza de profesor en el MIT. Alicia Lardé (Jennifer Connelly), una de sus alumnas, lo deja fascinado al mostrarle que las leyes del amor están por encima de las de las matemáticas. Gracias a su prodigiosa habilidad para descifrar códigos es reclutado por Parcher William (Ed Harris), del departamento de Defensa, para ayudar a los Estados Unidos en la Guerra Fría contra la Unión Soviética. "
+        },
+        {
+        "id": 17,
+        "nombre": "Seven ",
+        "dirección": "David Fincher",
+        "año": 1995,
+        "clasificacion": "Suspense",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7YWDPd586e-sTo1RuU9tw3-QMl0mWJJGcaVptlB19sV4UqzcM",
+        "sinopsis": "El veterano teniente Somerset (Morgan Freeman), del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso e impulsivo detective David Mills (Brad Pitt). Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta."
+        },
+        {
+        "id": 18,
+        "nombre": "Memento",
+        "dirección": "Christopher Nolan",
+        "año": 2020,
+        "clasificacion": "Suspense",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTQaOwyG_J0_gmx93CUut9fBcAVBgxNaUgpmDxKGSf2GDypiQly",
+        "sinopsis": "La memoria de Leonard, un investigador de una agencia de seguros, está irreversiblemente dañada debido a un golpe sufrido en la cabeza cuando intentaba evitar el asesinato de su mujer: éste es el último hecho que recuerda del pasado. La memoria reciente la ha perdido: los hechos cotidianos desaparecen de su mente en unos minutos. Así pues, para investigar e intentar vengar el asesinato de su esposa tiene que recurrir a la ayuda de una cámara instantánea y a las notas tatuadas en su cuerpo."
+        },
+        {
+        "id": 19,
+        "nombre": "El tiempo contigo",
+        "dirección": "Makoto Shinkai",
+        "año": 2019,
+        "clasificacion": "Animación ",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLg1rK2amIfzb15r_5sui_3P-xx-IS8qITTWM_jMna3ROcBFs",
+        "sinopsis": "Hotaka Morishima es un estudiante de secundaria que se muda a Tokio para dejar atrás su vida en una isla aislada del mundo. Allí conocerá a Akina Amano, una chica con el misterioso poder de manipular y controlar el clima a su antojo. Dirigida y escrita por Makoto Shinkai (Your Name)."
+        },
+        {
+        "id": 20,
+        "nombre": "Brave (Indomable) ",
+        "dirección": "Mark Andrews, Brenda Chapman, Steve Purcell",
+        "año": 2012,
+        "clasificacion": "Animación",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHwf3UbnWa47Eah2ZWX25MfuVWUk6Q9-qs_eHOv54CaekHJKzh ",
+        "sinopsis": "Merida, la indómita hija del Rey Fergus y de la Reina Elinor, es una hábil arquera que decide romper con una antigua costumbre, que es sagrada para los señores de la tierra: el gigantesco Lord MacGuffin, el malhumorado Lord Macintosh y el cascarrabias Lord Dingwall. Las acciones de Merida desencadenan el caos y la furia en el reino. Además, pide ayuda a una sabia anciana que le concede un deseo muy desafortunado. La muchacha tendrá que afrontar grandes peligros antes de aprender qué es la auténtica valentía."
+        },
+        {
+        "id": 21,
+        "nombre": "50 primeras citas",
+        "dirección": "Peter Segal",
+        "año": 2004,
+        "clasificacion": "Comedia",
+        "caratula": "https://upload.wikimedia.org/wikipedia/en/9/9d/50FirstDates.jpg ",
+        "sinopsis": "Henry Roth (Adam Sandler) es un biólogo marino de Hawaii que se pasa la vida inventando excusas para no comprometerse con las numerosas chicas con las que sale. Sin embargo, cuando conoce a la chica de sus sueños, la encantadora Lucy Whitmore (Drew Barrymore), surge un extraño problema en la relación: cuando Lucy se levanta por las mañanas no recuerda absolutamente nada de lo ocurrido el día anterior, de modo que Henry no tendrá más remedio que reconquistarla cada día."
+        },
+        {
+        "id": 22,
+        "nombre": "El diario de Noa ",
+        "dirección": "Nick Cassavetes",
+        "año": 2004,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZfAvQ4lq-p5CrO2gPGnTT7wdMdSq7BVkQwD68-fLvchs7SXy6",
+        "sinopsis": "En una residencia de ancianos, un hombre (James Garner) lee a una mujer (Gena Rowlands) una historia de amor escrita en su viejo cuaderno de notas. Es la historia de Noah Calhoun (Ryan Gosling) y Allie Hamilton (Rachel McAdams), dos jóvenes adolescentes de Carolina del Norte que, a pesar de vivir en dos ambientes sociales muy diferentes, se enamoraron profundamente y pasaron juntos un verano inolvidable, antes de ser separados, primero por sus padres, y más tarde por la guerra."
+        },
+        {
+        "id": 23,
+        "nombre": "Cinema Paradiso",
+        "dirección": "Giuseppe Tornatore",
+        "año": 1988,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ83RImkhpD0SGa5HAhj7g2aMEqX2c4c8cqLdjmD7WvdZxlgJ2y",
+        "sinopsis": "'Cinema Paradiso' es una historia de amor por el cine. Narra la historia de Salvatore, un niño de un pueblecito italiano en el que el único pasatiempo es ir al cine. Subyugado por las imágenes en movimiento, el chico cree ciegamente que el cine es magia; pero, un día, Alfredo, el operador, accede a enseñarle al pequeño los misterios y secretos que se ocultan detrás de una película. Salvatore va creciendo y llega el momento en el que debe abandonar el pueblo y buscarse la vida. Treinta años después recibe un mensaje, en el que le comunican que debe volver a casa."
+        },
+        {
+        "id": 24,
+        "nombre": "Bienvenidos al Sur",
+        "dirección": "Luca Miniero",
+        "año": 2010,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSy8C0URe9PHPIEoC_an05sqS9YSK3r7mU2otoTDIBvq-l8E-OI",
+        "sinopsis": "Remake de la exitosa comedia francesa Bienvenidos al Norte. Alberto (Claudio Bisio) trabaja en la oficina de Correos de una pequeña ciudad del Norte de Italia. Presionado por su mujer (Angela Finocchiaro), está dispuesto a todo con tal de conseguir el traslado a Milán, incluso a fingirse inválido; pero, cuando el truco es descubierto, lo sancionan mandándolo a un pueblecito de Campania, lo cual para un italiano del Norte es una auténtica pesadilla. Solo y lleno de prejuicios se traslada a la que considera la tierra de la camorra, de los paletos, los holgazanes. Su sorpresa será enorme cuando descubra un lugar fascinante, unos colegas entrañables, gentes muy hospitalarias y, sobre todo, un gran amigo, el cartero Mattia (Alessandro Siani). Ahora el problema es cómo contárselo a su mujer y a sus viejos amigos."
+        },
+        {
+        "id": 25,
+        "nombre": "Capitán Fantastic",
+        "dirección": "Matt Ross",
+        "año": 2016,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQurE1JZxQwzYW0W0kojuEAiAY8AHna98BEd9lEh8_J5tvPG71x",
+        "sinopsis": "Ben (Viggo Mortensen) es un hombre que ha pasado diez años viviendo en los remotos bosques situados en el noroeste de los Estados Unidos criando a sus seis hijos, varios de ellos junto a su mujer. Aislados totalmente de la vida moderna, de las comodidades de las ciudades y de la sociedad de consumo, Ben es un padre devoto que ha inculcado en sus hijos una peculiar forma de pensar y vivir la vida. Sin embargo, una trágica noticia hace que la peculiar familia deba dejar temporalmente su modo de vida en la naturaleza y volver a la civilización."
+        },
+        {
+        "id": 26,
+        "nombre": "Figuras ocultas",
+        "dirección": "Theodore Melfi",
+        "año": 2016,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRFml8u_suhGoljFnZbolt0rTv1jtAyAQ9YKLAi9feMMnv9BMg7",
+        "sinopsis": "Narra la historia nunca contada de tres brillantes mujeres científicas afroamericanas, Katherine G. Johnson (Taraji P. Henson), Dorothy Vaughan (Octavia Spencer) y Mary Jackson (Janelle Monáe), que trabajaron en la agencia espacial NASA a comienzos de los años sesenta (en plena carrera espacial, y asimismo en mitad de la lucha por los derechos civiles de los negros estadounidenses) en el ambicioso proyecto de poner en órbita al astronauta John Glenn."
+        },
+        {
+        "id": 27,
+        "nombre": "Hacia rutas salvajes (Into the Wild) ",
+        "dirección": "Sean Penn",
+        "año": 2007,
+        "clasificacion": "Acción" ,
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTZRtD6fGBg0VYKmOYjBW00xEGB4a9jNjAm_zVLsCgfTmGijle",
+        "sinopsis": "A principios de los años noventa, el joven e idealista Christopher McCandless (Emile Hirsch), adopta el nombre de Alexander Supertramp, deja sus posesiones y sus ahorros a la beneficencia y abandona el mundo civilizado con rumbo a la salvaje Alaska para entrar en contacto con la Naturaleza y descubrir el verdadero sentido de la vida. Adaptación del best-seller de Jon Krakauer, basado en las notas del diario de McCandless."
+        },
+        {
+        "id": 28,
+        "nombre": "Atràpame si puedes",
+        "dirección": "Steven Spielbergº",
+        "año": 2002,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSfC83dASp3T-UhezcBLOSm_FUL-pntwNQYqKIcIvHZi1K7JDWt",
+        "sinopsis": "Basada en una historia real. En los años sesenta, Frank W. Abagnale (Leonardo DiCaprio) era un joven y escurridizo delincuente que adoptaba diversas identidades (médico, abogado o copiloto de líneas aéreas). Carl Hanratty (Tom Hanks), un agente del FBI, tenía la misión de seguir su pista y capturarlo para llevarlo ante la justicia, pero Frank siempre iba un paso por delante de él. "
+        },
+        {
+        "id": 29,
+        "nombre": "La teoría del todo",
+        "dirección": "James Marsh",
+        "año": 2014,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZoyUs7KW3ukXRnZ5DqSa4ZlSA9IMuNKXaA529TuQ2wI-zCk4D",
+        "sinopsis": "Narra la relación entre el célebre astrofísico Stephen Hawking y su primera mujer, Jane, desde que ambos se conocieron siendo estudiantes en la Universidad de Cambridge a principios de los 60 y a lo largo de 25 años, especialmente en su lucha juntos contra la enfermedad degenerativa que postró al famoso científico en una silla de ruedas."
+        },
+        {
+        "id": 30,
+        "nombre": "22 de julio",
+        "dirección": "Paul Greengrass",
+        "año":  2018,
+        "clasificacion": "Suspense ",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIr0O013IatkzNcGhePEVCSpy3S3E0LK9Wh1M5XZABJsUendZ1",
+        "sinopsis": "Narra el atentado terrorista más letal de la historia de Noruega y los sucesos posteriores. El 22 de julio de 2011, un ultraderechista radical detonó un coche bomba en Oslo y luego disparó a los adolescentes de un campamento de verano en la isla de Utøya. Murieron 77 personas. A través de los ojos de un superviviente, y en paralelo a su recuperación física y emocional, 22 de julio retrata la trayectoria del país para lograr su curación y reconciliación."
+        },
+        {
+        "id": 31,
+        "nombre": "Lo imposible",
+        "dirección": "J.A. Bayona ",
+        "año": 2012,
+        "clasificacion": "Acción",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_BOtLtTzewXsP08gGQWzKFXg6EVixNd3VVYMXdfZDSPUsbrH",
+        "sinopsis": "Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia."
+        },
+        {
+        "id": 32,
+        "nombre": "Los otros",
+        "dirección": "Alejandro Amenábar",
+        "año": 2001,
+        "clasificacion": "Terror",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2Cyyx7UOTHevgO-RdL0K5WcVJeKgFBHGWwXTkPC-j4uXHfA0",
+        "sinopsis": "Isla de Jersey, 1945. La Segunda Guerra Mundial ha terminado, pero el marido de Grace (Nicole Kidman) no vuelve. Sola en un aislado caserón victoriano de la isla de Jersey, educa a sus hijos dentro de rígidas normas religiosas. Los niños sufren una extraña enfermedad: no pueden recibir directamente la luz del día. Los tres nuevos sirvientes que se incorporan a la vida familiar deben aprender una regla vital: la casa estará siempre en penumbra, y nunca se abrirá una puerta si no se ha cerrado la anterior. Pero el estricto orden que Grace ha impuesto se verá desafiado por circunstancias que escapan a su control."
+        },
+        {
+        "id": 33,
+        "nombre": "Tesis",
+        "dirección": "Alejandro Amenábar",
+        "año": 1996,
+        "clasificacion": "Suspense",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTNuJrnzoO51Nv4Wo4FJdMtQr3gf2EzjRr01ZfwadBGIwEIIsdw",
+        "sinopsis": "Ángela, estudiante de Imagen, está preparando una tesis sobre la violencia audiovisual. Como complemento a su trabajo, su director de tesis se compromete a buscar en la videoteca de la facultad material para ella, pero al día siguiente es hallado muerto. Ángela conoce a Chema, un compañero experto en cine gore y pornográfico, y a Bosco, un extraño chico, amigo íntimo de una joven asesinada en una snuff movie."
+        },
+        {
+        "id": 34,
+        "nombre": "The Mexican",
+        "dirección": "Gore Verbinski",
+        "año": 2001,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTAfqXn37vJTTi07f3Im7xUlcAsAx5hoDTtfcwqDtO3XmmidKNS",
+        "sinopsis": "Jerry Welbach acaba de recibir dos ultimátum: el primero de su jefe, un mafioso que le encarga ir a México para recuperar la Mexicana, una antigua y valiosa pistola, y el segundo de su novia Samantha, que le exige que ponga fin a su relación con la mafia. Jerry piensa que seguir vivo es lo más importante, aunque eso suponga tener problemas con Samantha, así que viaja a México a buscar el arma, sobre la que existe una maldición."
+        },
+        {
+        "id": 35,
+        "nombre": "Grease",
+        "dirección": "Randal Kleiser",
+        "año": 1978,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRkFwWpviFC6QVOPcm3kl-762D_gJy0XepDdl3mauNAGBnLVca3",
+        "sinopsis": "Verano de 1959. Sandy (Olivia Newton John) y Danny (John Travolta) han pasado un romántico y maravilloso verano juntos, pero, cuando las vacaciones se acaban, sus caminos se separan. Inesperadamente, vuelven a verse en el instituto Rydell, pero la actitud de Danny ya no es la misma: ya no es el chico encantador y atento que encandiló a Sandy; ahora es engreído e insensible."
+        },
+        {
+        "id": 36,
+        "nombre": "El Rey León ",
+        "dirección": "Rob Minkoff, Roger Allers",
+        "año": 1994,
+        "clasificacion": "Animación",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR99XsrvHv18Kc6zjVY-K0YSMA0dMhUqJRHSgIEF-uUfA6XmR-X",
+        "sinopsis": "La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado a exiliarse. Durante su destierro, hará buenas amistades e intentará regresar para recuperar lo que legítimamente le corresponde."
+        },
+        {
+        "id": 37,
+        "nombre": "El caso Bourne",
+        "dirección": "Doug Liman",
+        "año": 2002,
+        "clasificacion": "Acción",
+        "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxS82BNWfAqupS7v8ruj_hQICxMqyWOU9YP4O3cCnbwNAGTvED",
+        "sinopsis": "Un hombre amnésico es rescatado por la tripulación de un barco pesquero italiano cuando flota a la deriva en el mar. No lleva nada consigo. Sólo las balas que lleva clavadas en la espalda y un número de cuenta de un banco suizo que lleva adherido a la cadera. Carece de identidad y de pasado, pero posee unas serie de talentos extraordinarios en artes lingüísticas, marciales y de autodefensa que sugieren una profesión de riesgo. Confuso y desorientado, emprende una frenética búsqueda para descubrir quién es y por qué su vida ha tomado un giro tan peligroso."
+        },
+        {
+        "id": 38,
+        "nombre": "Love Actually",
+        "dirección": "Richard Curtis",
+        "año": 2003,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWEfceOiWxyFKLLF6l8nsnuO2Ntyzltl8VKpg2ThV3M0g_t-7c",
+        "sinopsis": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. Love Actually es una manera abreviada de decir “Love Actually Is All Around” y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor."
+        },
+        {
+        "id": 39,
+        "nombre": "Las dos caras de la verdad",
+        "dirección": "Gregory Hoblit",
+        "año": 1996,
+        "clasificacion": "Suspense",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9dsE5VGNO-vGRyaZ8yRYaFtyTtSrXsG4F2nQSyRcTM7r6xVKO",
+        "sinopsis": "Martin Vail (Richard Gere), un ambicioso abogado de Chicago, es capaz de aceptar cualquier caso con tal de salir en la prensa. Un día decide ocuparse de uno que parece imposible de ganar: la defensa de Aaron (Edward Norton), un joven que es acusado del asesinato del arzobispo de Chicago, tras ser detenido mientras huía del escenario del crimen."
+        },
+        {
+        "id": 40,
+        "nombre": "Ocho apellidos vascos",
+        "dirección": "Emilio Martínez-Lázaro",
+        "año": 2014,
+        "clasificacion": "Comedia",
+        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRl6F9g3ctCIhA6_D0R6cCje5DUmKUOSCt9Jcaqguurzl5izOe",
+        "sinopsis": "Rafa (Dani Rovira) es un joven señorito andaluz que no ha tenido que salir jamás de su Sevilla natal para conseguir lo único que le importa en la vida: el fino, la gomina, el Betis y las mujeres. Todo cambia cuando conoce una mujer que se resiste a sus encantos: es Amaia (Clara Lago), una chica vasca. Decidido a conquistarla, se traslada a un pueblo de las Vascongadas, donde se hace pasar por vasco para vencer su resistencia. Adopta el nombre de Antxon y varios apellidos vascos: Arguiñano, Igartiburu, Erentxun, Gabilondo, Urdangarín, Otegi, Zubizarreta... y Clemente."
+        }
+    ],  
+
+    "clasificaciones": [
+        {
+        "nombre": "Drama",
+        "id": 1
+        },
+        {
+        "nombre": "Comedia",
+        "id": 2
+        },
+        {
+        "nombre": "Terror",
+        "id": 3
+        },
+        {
+        "nombre": "Acción",
+        "id": 4
+        },
+        {
+        "nombre": "Suspense",
+        "id": 5
+        },
+        {
+        "nombre": "Animación",
+        "id": 6
+        }
+    ],
+
+    "users": [
+        {
+        "id": 1,
+        "email": "oscar@mail.com",
+        "nombre": "Óscar",
+        "password": 1234
+        },
+        {
+        "id": 2,
+        "email": "gonzalo@mail.com",
+        "nombre": "Gonzalo",
+        "password": 4567
+        },
+        {
+        "id": 3,
+        "email": "miriam@mail.com",
+        "nombre": "Miriam",
+        "password": 8910
+        },
+        {
+        "id": 4,
+        "email": "carapapa@mail.com",
+        "nombre": "Carlos",
+        "password": 5575
+        },
+        {
+        "id": 5,
+        "email": "judith@mail.com",
+        "nombre": "Judith",
+        "password": 4587
+        },
+        {
+        "id": 6,
+        "email": "alex@mail.com",
+        "nombre": "Alejandro",
+        "password": 4321
+        },
+        {
+        "id": 7,
+        "email": "rocio@mail.com",
+        "nombre": "Rocío",
+        "password": 7777
+        },
+        {
+        "id": 8,
+        "email": "marta@mail.com",
+        "nombre": "Marta",
+        "password": 9852
+        },
+        {
+        "id": 9,
+        "email": "pepe@mail.com",
+        "nombre": "Pepe",
+        "password": 5973
+        },
+        {
+        "id": 10,
+        "email": "raul@mail.com",
+        "nombre": "Raúl",
+        "password": 1234
+        },
+        {
+        "id": 11,
+        "email": "antonio@mail.com",
+        "nombre": "Antonio",
+        "password": 1234
+        },
+        {
+        "id": 12,
+        "email": "jorge@mail.com",
+        "nombre": "Jorge",
+        "password": 1234
+        },
+        {
+        "id": 13,
+        "email": "beatriz@mail.com",
+        "nombre": "Beatriz",
+        "password": 1111
+        },
+        {
+        "id": 14,
+        "email": "sandra@mail.com",
+        "nombre": "Sandra",
+        "password": 9999
+        },
+        {
+        "id": 15,
+        "email": "julia@mail.com",
+        "nombre": "Julia",
+        "password": 6548
+        },
+        {
+        "id": 16,
+        "email": "tere@mail.com",
+        "nombre": "Teresa",
+        "password": 3333
+        },
+        {
+        "id": 17,
+        "email": "lorenzo@mail.com",
+        "nombre": "Lorenzo",
+        "password": 2606
+        },
+        {
+        "id": 18,
+        "email": "silvia@mail.com",
+        "nombre": "Silvia",
+        "password": 7896
+        },
+        {
+        "id": 19,
+        "email": "guillermo@mail.com",
+        "nombre": "Guillermo",
+        "password": 9876
+        },
+        {
+        "id": 20,
+        "email": "salva@mail.com",
+        "nombre": "Salvador",
+        "password": 3105
+        }
+    ],
+
+    "comments":[
+        {
+        "titulo": "Estereotipada",
+        "cuerpo": "La historia de amor acompaña, pero hasta allí. En ese sentido, es una comedia del montón, oportuna, que exprime una necesidad. La de la risa de España y Euskadi",
+        "usuarioId": 1,
+        "puntuacion": 3,
+        "peliculaId": 40
+        },
+        {
+        "titulo": "Tiene ritmo y suspense",
+        "cuerpo": "Excelente película, una trama inteligente, bien llevada y un desenlace que deja mudo al espectador. Excelentes actuaciones",
+        "usuarioId": 2,
+        "puntuacion": 4,
+        "peliculaId": 39
+        },
+        {
+        "titulo": "Muy buena",
+        "cuerpo": "De las mejores comedias romanticas que se pueden ver no solo en época navideña a pesar de estar enfocada en esas fechas. Buenas historias entrelazadas entre si, buena banda sonora, buen reparto y buen desenlace.",
+        "usuarioId": 3,
+        "puntuacion": 5,
+        "peliculaId": 38
+        },
+        {
+        "titulo": "Genial, tiene de todo",
+        "cuerpo": "EMagníficamente realizada e interpretada. Obviamente no toda la novela de Robert Ludlum cabe en la peli aunque está resuelta con verdadero talento y maestría.La suelo recomendar en muchas ocasiones, en sus emisiones televisivas.",
+        "usuarioId": 4,
+        "puntuacion": 5,
+        "peliculaId": 37
+        },
+        {
+        "titulo": "Emocionante",
+        "cuerpo": "Una obra de arte hecha película, el rey león con su gran animación su grandiosa Banda sonora de Hans zimmer y su gran mensaje de vida es de las grandes películas de Disney o quizá la mejor del estudio, esta quizá sea la mejor película animada de todos los tiempos y una de las mejores del cine, así el rey de todas las películas animadas se para en alto y llega a la grandeza de Disney, una obra maestra que quedara para  siempre, Hakuna matata llegó para quedarse como parte cultural del cine.",
+        "usuarioId": 5,
+        "puntuacion": 5,
+        "peliculaId": 36
+        },
+        {
+        "titulo": "Decepcionante",
+        "cuerpo": "Pues Sandy al final cambio para gustarle al danny, desde su vestimenta, a su tono de voz y hasta fumar, no vale la pena echarte a perder los pumones por un vato nalgas miadas, que trato de abusar de ella en el coche en la pelicula, el mensaje de la pelicula fue, cambia todo de ti pra gustarle a un chico.",
+        "usuarioId": 6,
+        "puntuacion": 2,
+        "peliculaId": 35
+        },
+        {
+        "titulo": "No decepciona a nadie",
+        "cuerpo": " Posee unos giros sorprendentes bien expuestos en un hábil guion aunque con disparatadas aventuras que divierten al espectador y en ningún momento pesan, a pesar de la larga duración del film, que posee momentos de suspense, de comedia y hasta alguna que otra sorpresa. La cinta gana muchos enteros cuando entra en escena James Gandolfini, en el papel de un sensible asesino generoso, algo inhabitual, que casi le convierte en el protagonista. El producto no engaña a nadie que vaya a ver una entretenida comedia y disfrutar de la presencia de estos actores con una interesante banda sonora de Alan Silvestri.",
+        "usuarioId": 7,
+        "puntuacion": 5,
+        "peliculaId": 34
+        },
+        {
+        "titulo": "¿Crees que una película puede matar a una persona?",
+        "cuerpo": "Que gran peli! la descubrí tan tarde que me da pena. Se tiene que contextualizar al momento que lo hicieron, pero aun asi es muy actual el manejo de la cámara y el sonido. La premisa es tremenda, entra en mi top de películas españolas.",
+        "usuarioId": 8,
+        "puntuacion": 5,
+        "peliculaId": 33
+        },
+        {
+        "titulo": "Genial",
+        "cuerpo": "Una gran pelicula de las pocas de genero de terror que realmente valen la pena, las actuacion impecables el giro en la trama fue muy bien estructurado, consecuente con la historia un final que deja un sabor amargo, por la final perturbador de los personajes el suspenso que te sumerge en la agonia de su locura es maravilloso, recomendado.",
+        "usuarioId": 9,
+        "puntuacion": 4,
+        "peliculaId": 32
+        },
+        {
+        "titulo": "La recomiendo",
+        "cuerpo": "Espectacular... Es una película que muestra el valor del amor en la familia y las ganas de volver a reencontrarse con los seres queridos y no darse por vencidos a pesar de todas las adversidades que se atraviesen... 100% recomendada",
+        "usuarioId": 10,
+        "puntuacion": 4,
+        "peliculaId": 31
+        },
+        {
+        "titulo": "Da mucho que pensar",
+        "cuerpo": "Recomendable, un poco lenta la trama al final pero retrata la realidad de ese día, imágenes sensibles, por la crueldad de las ejecuciones.",
+        "usuarioId": 11,
+        "puntuacion": 3,
+        "peliculaId": 30
+        },
+        {
+        "titulo": "No me convenció",
+        "cuerpo": "Mala, o mediocre, es una cursilería que se recarga en el nombre de un científico muy importante pero que no logra decirte nada por si misma, y que a través de técnicas manipuladoras y explotadas al cansancio en cualquier telenovela como el gloom fotográfico, música que entra casi a huevo para darte una pista sobre qué rayos sentir en la escena, flares y colorcitos Instagrameros, diálogos bobitos , nos van mostrando la historia nada objetiva de un hombre (  que ya sabíamos) que va terminar en silla de ruedas pero no nos muestra un conflicto más allá de este, dándonos a cambio música bonita y reciclada con un semifinal que no justifica ni el nombre, ni el montaje en reversa que a simple vista podría hacernos pensar en una alegoría que cumple su entelequia rimbombante  al igual que el speech que da Hawking para ganarse el aplauso con sensación de esperanza de contenido vacuo y esquivo tipo político mexicano .... Las actuaciones y caracterizaciones están de 10!!!.",
+        "usuarioId": 12,
+        "puntuacion": 2,
+        "peliculaId": 29
+        },
+        {
+        "titulo": "De 5 estrellas",
+        "cuerpo": "las películas basadas  en hechos reales , como atrapame si puedes, nos llevan a conocer el ingenio, estrategia e inteligencia de este personaje, Con la interpretación de excelentes actores, y el lujo del director spelberg merece las 5 estrellas.",
+        "usuarioId": 13,
+        "puntuacion": 5,
+        "peliculaId": 28
+        },
+        {
+        "titulo": "Excelente película",
+        "cuerpo": "Esta película es increíble si la vemos por su fotografía donde se ve hermosos paisajes que son dignos de admirar o poner pausa y tomar un vistazo a los detalles de toda la escena. Viendo a Cristopher o Alexander si bien comparto su ideal de como a veces el sistema es algo que nosotros debemos vencer o huir no creo que sea la mejor idea lo que el hizo su idea de la naturaleza era que está era bella y si lo es pero también la naturaleza puede ser cruel y alex no estaba preparado para eso por lo que término muriendo por sus propias acciones sin haberlo planificado antes pero es bueno saber que muchos se inspiraron a base de él claro no cometiendo los mismo errores pero dispuestos a salir del sistema para evitar pretender o tener cosas que no necesitamos.",
+        "usuarioId": 14,
+        "puntuacion": 5,
+        "peliculaId": 27
+        },
+        {
+        "titulo": "Maravillosa",
+        "cuerpo": "Una maravilla de película. Bien narrada, con grandes personaje y que muestra una realidad vivida. No hay un solo momento desperdiciado y deja grandes lecciones. La actuación de Taraji Henson es magistral y es inevitable no sentir cariño y admiración hacia su personaje. Es extraño ver a Jim Parsons en otra piel distinta a la de Sheldon, pero su personaje también aporta. Es un largo camino para luchar contra las injusticias, pero esta película lo hace muy bien.",
+        "usuarioId": 15,
+        "puntuacion": 5,
+        "peliculaId": 26
+        },
+        {
+        "titulo": "Se ha convertido en una de mis películas favoritas",
+        "cuerpo": "Un retrato magnífico y lucido sobre las contradicciones de nuestra sociedad en decadencia. El film muestra como un padre alecciona minuciosa y cariñosamente a sus hijos, los cuales crecen fuertes intelectual y físicamente pero adoleciendo logícamente de las habilidades necesarias para integrarse en la sociedad. Me gusta mucho la capacidad del personaje principal de darse cuenta de que no puede anteponer sus ideales al bienestar de sus hijos. Magnífico reparto.",
+        "usuarioId": 16,
+        "puntuacion": 5,
+        "peliculaId": 25
+        },
+        {
+        "titulo": "Mejor la versión original",
+        "cuerpo": "Dos únicas consideraciones, que aunque obvias nunca viene mal recordar: 1. La versión original siempre será mejor que la que nos traigan a España. Si alguien tiene la oportunidad de verla con subtítulos, que no deje de hacerlo. 2. NO ver, repito, NO ver bajo ningún concepto si la excesiva gesticulación y/o volumen de los actores italianos causa jaqueca, estrés o irritación. Gran parte del encanto de esta película reside justo en eso.",
+        "usuarioId": 17,
+        "puntuacion": 3,
+        "peliculaId": 24
+        },
+        {
+        "titulo": "Una obra de arte mayor",
+        "cuerpo": "Increíble que un Director como Tornatore con sólo 33 años haya podido hacer este CAPOLAVORO, como dicen los italianos... Un film completo: en la  temática, en el tratamiento delicado de los sentimientos y frustraciones... En la reconstrucción de las épocas... En la fotografía, en la MÚSICA maravillosa de Morricone... Y los actores, notables todos, metiéndose en la piel de cada personaje a la perfección...!!! ... EXCELENTE TODO Y UN MODELO A ADMIRAR (IMPOSIBLE SEGUIR), POR QUIENES QUIEREN HACER DEL 7mo. ARTE ALGO REALMENTE MARAVILLOSO...  VOY A DECIR ALGO ANTIPÁTICO, PERO REAL Y YO LO SIENTO ASÍ: DIFÍCILMENTE, EL CINE QUE NO SEA EUROPEO, PUEDA HACER ESTAS  COSAS...",
+        "usuarioId": 18,
+        "puntuacion": 5,
+        "peliculaId": 23
+        },
+        {
+        "titulo": "Maravillosa",
+        "cuerpo": "Una maravillosa historia de un amor  al que ni el Alzheimer pudo vencer. Actuaciones maravillosas de actores inolvidables",
+        "usuarioId": 19,
+        "puntuacion": 5,
+        "peliculaId": 22
+        },
+        {
+        "titulo": "La puedo ver mil veces y no me canso",
+        "cuerpo": "Me encantó muy recomendada, es tan divertida que la vuelvo a ver y nunca me aburre",
+        "usuarioId": 20,
+        "puntuacion": 4,
+        "peliculaId": 21
+        },
+        {
+        "titulo": "Revolucionaria",
+        "cuerpo": "Peculiar película de terror que ofrece algo distinto a lo que la mayoría espera sin dejar de sentirse como algo especial. El mejor trabajo en la carrera de M. Night Shyamalan obviamente, la película empieza de manera oscura, continua de manera alucinante, y concluye aun mas impactante, con uno de los giros de trama supremos del cine. Aunque es verdad que la cantidad de terror en la película es relativamente poco constante, se balancea entre el drama psicológico y la porción del miedo a los fantasmas con una atmosfera tan espeluznante que evita sentirse aburrida. También es un refuerzo que El Sexto Sentido (1999) tiene un reparto genial, con el joven Haley Joel Osment brindando sentimiento en cada escena junto al solido Bruce Willis. Es profunda y excepcional, se merece la medalla de oro.",
+        "usuarioId": 1,
+        "puntuacion": 5,
+        "peliculaId": 1
+        },
+        {
+        "titulo": "Absurda",
+        "cuerpo": "Contrariamente de lo que opina mucha gente que ha visto esta (idiotez) de mediados de los 90, tengo que decir que desde mi punto de vista es una película bastante mediocre, se adorna con extrema violencia sin necesidad, diálogos delirantes aunque a veces cómicos pero soeces. Es absurda en sí misma, la falta de talento del director se ve compensada con la sobreactuacion de actores que no pueden hacer más que rendir al mínimo, Bruce Willis está de pena, sólo salva Uma Thurman con un papel tan resultón como zafio. En resumen una espantajada más de Tarantino como nos tiene acostumbrados...",
+        "usuarioId": 2,
+        "puntuacion": 1,
+        "peliculaId": 2
+        },
+        {
+        "titulo": "Más de lo mismo",
+        "cuerpo": "Cada vez que este tío dirige, un Oscar se suicida.",
+        "usuarioId": 3,
+        "puntuacion": 1,
+        "peliculaId": 3
+        },
+        {
+        "titulo": "Disfrutable",
+        "cuerpo": "La fotografía, escenografía, las batallas son brutales, pero esos toques de villano de Disney, los monstruitos, el lobo salido del mismísimo averno pues como q no. En fin, muy disfrutable, sobre todo si esos detalles no te importan.",
+        "usuarioId": 4,
+        "puntuacion": 3,
+        "peliculaId": 4
+        },
+        {
+        "titulo": "Obra maestra de culto",
+        "cuerpo": "La química de Hopkins y Foster es una delicia. Los simbolismos, el guión, las escenas macabras y bellas y la banda sonora, entre otras cosas mas, me parecen para destacar",
+        "usuarioId": 5,
+        "puntuacion": 5,
+        "peliculaId": 5
+        },
+        {
+        "titulo": "No te la puedes perder",
+        "cuerpo": "Una película que te tocará el corazón, la historia de Forrest Gump es simplemente conmovedora e inspiradora. Es fascinante el hecho de que él mismo la narre, nos hace ver sus sentimientos y sus experiencias a lo largo de su vida, su gran amor Jenny, sus amistades, su forma tan inocente de ver el mundo y, sobre todo, su resiliencia. Sin duda, una de esas películas para ver antes de morir.",
+        "usuarioId": 6,
+        "puntuacion": 5,
+        "peliculaId": 6
+        },
+        {
+        "titulo": "Hermosa en todos los sentidos",
+        "cuerpo": "Además de la bella introducción a la cultura mexicana, a mi me llevó hasta mi infancia al lado de mi bisabuela, que me crió. la perseverancia de Miguel por lograr sus sueños y cómo el amor filial está por encima de cualquier cosa, un tema muy necesario en nuestros días y en mi criterio, tratado con brillantez. Agradecida por COCO",
+        "usuarioId": 7,
+        "puntuacion": 5,
+        "peliculaId": 7
+        },
+        {
+        "titulo": "La banda sonora es brutal",
+        "cuerpo": "Y los genios de PIXAR le dan al clavo una vez más. Luca (2021) es una maravillosamente conmovedora historia de aceptación que a mi parecer va a pasar a ser vista como una de las películas mas visualmente bellas y fantásticas de 2021. Saliéndose ligeramente de los aspectos tradicionales del estudio, la película presenta personajes muy memorables entre los que destacan nuestros jóvenes héroes Luca y Alberto siempre doblados con encanto y corazón. La historia basada literalmente en el concepto de pez fuera del agua impresiona astutamente generando momentos realmente únicos sin perder nunca el sentido del humor que la hace mas agradable cuando se vuelve algo deprimente. Cualquiera que se sienta incapaz de encajar podrá amar esta película y su moraleja sobre crecer y su sugerencia sobre la diversidad, pero si te adentras demasiado en la película, quizás te ponga sentimental. Homenaje a la cultura italiana, es ideal para disfrutar en familia.",
+        "usuarioId": 8,
+        "puntuacion": 5,
+        "peliculaId": 8
+        },
+        {
+        "titulo": "Tan genial como las demás",
+        "cuerpo": "Es tan genial , como todas las demás , para mi opinión Harry Potter y el prisionero de azkaban y  el misterio del príncipe mestizo son las mejores, hasta el día de hoy no puedo de dejarlas de verlas una y otra vez ,  es de las mejores saga de todos los tiempos.",
+        "usuarioId": 9,
+        "puntuacion": 4,
+        "peliculaId": 9
+        },
+        {
+        "titulo": "Me decepcionó",
+        "cuerpo": "Muy mala, me decepcionó mucho. Me han encantado las películas de Harry Potter y todos los libros. Animales fantásticos 1 safa, la 2 es un desastre, poco se entiende, cortan cada 5 minutos todas las escenas para pasar a otra cosa completamente diferente y poco se entiende. Esta peli, no es tan rápida cómo la segunda, pero tampoco profundizan en nada. Q no estuviera Jonnhy Deep fue terrible y pusieron a un actor q en nada se le parece... Me costó asociarlo con Grindelwald. Al comienzo de la peli comienza como Bambi, y es demasiado fuerte para ser verdad, odie ese comienzo. Los actores los pusieron por ser protagonistas, pero no aportaban mucho... La novia de Scamander Tina?? Q paso con ella?? Fue rarísimo, apareció solo al final y no se entendía nada. Y Grindelwald... Todos sabían q era malo, todos.. Muy forzada la película.",
+        "usuarioId": 10,
+        "puntuacion": 2,
+        "peliculaId": 10
+        },
+        {
+        "titulo": "Cautivadora",
+        "cuerpo": "Siempre fue mi favorita al Oscar de este año, es sencillamente maravillosa y el mensaje que busca transmitir de inclusión a las personas con discapacidad es excelente, muy positivo e importante que sea retratado en la pantalla grande y visibilizado en la sociedad.",
+        "usuarioId": 11,
+        "puntuacion": 4,
+        "peliculaId": 11
+        },
+        {
+        "titulo": "Interesante",
+        "cuerpo": "Me resultó interesante pero no la recomiendo para aquellos que son sensibles a escenas grotescas u obscenas, ya que cuenta con un humor negro muy gráfico. Igual si eres impaciente, las 3 horas de duración pueden ser eternos si no sientes un interés o un engache a la trama",
+        "usuarioId": 12,
+        "puntuacion": 3,
+        "peliculaId": 12
+        },
+        {
+        "titulo": "No me convenció",
+        "cuerpo": "Respetable pero finalmente no convincente film fantástico-terrorífico, inscrito de hoz y coz en el (sub) género de casas encantadas.",
+        "usuarioId": 13,
+        "puntuacion": 2,
+        "peliculaId": 13
+        },
+        {
+        "titulo": "Es un emblema",
+        "cuerpo": "Ghostbusters no es una película, es todo un emblema de una generación: los años 80. Si piensas en ésta decada es inevitable mencionar ésta pelicula, que no tendría sentido sin la canción perfecta de Ray parker jr. , sin la inetervención del inconmensurable Bill Murray, sin la mitica ambulancia reconvertida, sin esas mochilas que lanzan rayos... en fin toda una iconografía que la convierte en algo inimitable y único",
+        "usuarioId": 14,
+        "puntuacion": 5,
+        "peliculaId": 20
+        },
+        {
+        "titulo": "De las mejores pelis de los 80",
+        "cuerpo": "La mejor pelicula para ver en familia un peliculón  the goonies es una película  magica y llena de aventura  te la recomiendo al 1000 por 1000 soy fan número  1 de los goonies",
+        "usuarioId": 15,
+        "puntuacion": 4,
+        "peliculaId": 14
+        },
+        {
+        "titulo": "Brillante",
+        "cuerpo": "Sin duda me encanto mucho la película porque plantea varios temas que invitan a reflexionar y está relacionado con la inteligencia lógica matemática ya que el actor es un genio matemático que puede tener de ciertos asuntos de la vida cotidiana, lo que le permite, por una parte, el encontrar importantes relaciones ocultas en las cosas, pero, por otra parte, esta misma habilidad lo hace perder su capacidad de distinguir entre lo real y lo imaginario",
+        "usuarioId": 16,
+        "puntuacion": 5,
+        "peliculaId": 15
+        },
+        {
+        "titulo": "Peliculón",
+        "cuerpo": "El mejor thriller de misterio y crimen por exelencia, está película me encanta, la he visto más de 40 veces y nunca me caso de ella,  es una joya desde donde lo mires, las actuaciones los apartados técnicos, la fantástica dirección de David Fincher, la música y el final, hacen que sea una película simplemente perfecta.",
+        "usuarioId": 17,
+        "puntuacion": 5,
+        "peliculaId": 16
+        },
+        {
+        "titulo": "La puedo ver 20 veces si quieres",
+        "cuerpo": "Como llevar una historia basica a una narrativa completamente unica y original, Planos convervadores y oscuros, hace que no puedas despegar los ojos de la pantalla, constantemente intentas encajar la piezas de este rompecabezas  y te cuestionas de si tu propia realidad es en verdad real o una propia construccion tuya para hacerte feliz/ . Eso sin decir las buenas actuaciones de personajes hace una peli de 10/10. 100% Recomendada.",
+        "usuarioId": 18,
+        "puntuacion": 5,
+        "peliculaId": 17
+        },
+        {
+        "titulo": "Me fascinó",
+        "cuerpo": "Una maravilla... La estaba buscando por la tele por bastante tiempo y hoy la encontré y me fascinó. Muy buena la película la dirección la animación los personajes y lo mejor fue los paisajes y la banda sonora",
+        "usuarioId": 19,
+        "puntuacion": 5,
+        "peliculaId": 18
+        },
+        {
+        "titulo": "No es la típica película de princesas",
+        "cuerpo": "En mi Opinion Merida es una de las princesas mas realistas que Pixar hace a su manera al mostrarnos lo que son capaces las mujeres como ella se centra mas la relación con su mama y eso me gusta de ella, a pesar de ser muy fantasiosa con toques de magia aun así esta cinta toca temas mas fuertes en la realidad en las relaciones familiares además que a pesar las diferencias que tienen deben amarse en los momentos mas necesarios y aceptarnos lo que somos y no poder cambiar.",
+        "usuarioId": 20,
+        "puntuacion": 4,
+        "peliculaId": 19
+        }
+    ]
+
 }
