@@ -16,13 +16,12 @@ const [user, setUser] = useState(null);
 const authenticated = user != null;
 
  //función para pasar el email y el password desde context.js para que setUser recoja el usuario encontrado:
-const loginUser = ({ email, password }) => setUser(login ({email, password}));
+async function loginUser ({ email, password }) {
+  const user = await login ({email, password})
+  setUser(user)
+};
 
 const logoutUser = () => setUser(null);
-
-
-
-
 
   return (
     <div className="App">

@@ -5,16 +5,14 @@ import React from 'react'
 export const FilmsContext = createContext()
 const url = "http://localhost:3000/"
 
-/* 
-Según Jose hay que hacer esta función (login) que me muestra el usuario con el mail y la password
-export const login = ({email, password}) => {
-  const user = users.find(
-    (user) => user.email === email && user.password === password
-  );
-  if (user === undefined) throw new Error();
-  return user;
+
+//función (login) que  muestra el usuario con el mail y la password
+export const login = async ({email, password}) => {
+  const respuesta = await axios.post(`${url}login`,{email: email, password: password})
+  return respuesta.data
 }
- */
+
+
 
 export const FilmsContextProvider = ({children}) => {
   const [films, setFilms] = useState([])

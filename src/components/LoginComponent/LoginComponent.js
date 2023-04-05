@@ -1,22 +1,13 @@
 import React, { useState, useContext} from 'react';
 import PropTypes from 'prop-types';
 import { FilmsContext } from '../../context/context';
-
+import styles from './LoginComponent.module.css';
 
 
 
 const LoginComponent = ({loginUser}) => { 
 const { users } = useContext(FilmsContext)
 console.log(users)
-
-
-const login = ({email, password}) => {
-  const user = users.find(
-    (user) => user.email === email && user.password === password
-  );
-  if (user === undefined) throw new Error();
-  return user;
-  }
 
  //estado inicial con los valores de email y password
 const Initial_state = {
@@ -42,15 +33,17 @@ const onSubmit = (ev) => {
 
 
   return(
-    <div>
+    <div className={styles.LoginContainer}>
       <h2>Login</h2>
       <form onSubmit={onSubmit}>
-        <label htmlFor='email'>Email</label>
+        <label className={styles.MailLogin} htmlFor='email'>Email</label>
         <input type="text" id="email" value={FormUser.email} onChange={handleInput}/>
+        <br/>
       
         <label htmlFor='password'>Password</label>
         <input type="text" id="password" value={FormUser.password} onChange={handleInput}/>
 
+        <br/>
         <button type='submit'>Login</button>
       </form>
     </div>
