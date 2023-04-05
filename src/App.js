@@ -7,6 +7,7 @@ import {LoginPage} from './pages/loginPage/loginPage';
 import {RegisterPage} from './pages/registerPage/registerPage';
 import { FilmsContextProvider, login } from './context/context';
 import { useState } from 'react';
+import { PrivatePage } from './pages/privatePage/privatePage';
 import RequiredAuth from './components/RequiredAuth';
 
 
@@ -34,6 +35,11 @@ const logoutUser = () => setUser(null);
       <Route exact path="/gallery" element={<GalleryPage/>}></Route>
       <Route exact path='/login' element={<LoginPage loginUser={loginUser}/>}></Route>
       <Route exact path='/register' element={<RegisterPage/>}></Route>
+      <Route exact path='/private' element={
+        <RequiredAuth authenticated={authenticated}>
+          <PrivatePage></PrivatePage>
+        </RequiredAuth>
+      }></Route>
       </Routes>
     </FilmsContextProvider>
     </div>
