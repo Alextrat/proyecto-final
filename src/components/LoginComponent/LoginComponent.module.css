@@ -1,0 +1,33 @@
+.LoginContainer {
+    display:block;
+    background-color: rebeccapurple;
+}
+.MailLogin {
+    background-color: chartreuse;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+h2 {
+    color:red;
+}
+
+label {
+    background-color: cornflowerblue;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}

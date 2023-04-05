@@ -1,8 +1,8 @@
 import React from 'react'
 import LoginComponent from '../../components/LoginComponent/LoginComponent'
 
-export const LoginPage = () => {
+export const LoginPage = ({loginUser}) => {
   return (
-    <div><LoginComponent/></div>
+    <div><LoginComponent loginUser={loginUser}/></div>
   )
 }

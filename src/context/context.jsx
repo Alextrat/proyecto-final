@@ -3,8 +3,16 @@ import { createContext, useEffect, useState } from "react";
 import React from 'react'
 
 export const FilmsContext = createContext()
-
 const url = "http://localhost:3000/"
+
+
+//función (login) que  muestra el usuario con el mail y la password
+export const login = async ({email, password}) => {
+  const respuesta = await axios.post(`${url}login`,{email: email, password: password})
+  return respuesta.data
+}
+
+
 
 export const FilmsContextProvider = ({children}) => {
   const [films, setFilms] = useState([])
@@ -49,4 +57,5 @@ export const FilmsContextProvider = ({children}) => {
         {children}
     </FilmsContext.Provider>
   )
+  
 }
