@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const HomeComponent = () => (
+const HomeComponent = () => {
+  
+  return(
   <div>
-    HomeComponent Component
-  </div>
-);
+
+  </div>)
+};
 
 HomeComponent.propTypes = {};
 

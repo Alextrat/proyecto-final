@@ -11,7 +11,11 @@ export const login = async ({email, password}) => {
   const respuesta = await axios.post(`${url}login`,{email: email, password: password})
   return respuesta.data
 }
-
+// 
+export const registrar = async ({id, email, nombre, password}) => {
+  const respuesta = await axios.post(`${url}register`,{id: id, nombre: nombre, email: email, password: password})
+  return respuesta.data
+}
 
 
 export const FilmsContextProvider = ({children}) => {
