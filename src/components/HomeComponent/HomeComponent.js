@@ -17,7 +17,9 @@ const HomeComponent = () => {
   return ( 
     
   <div className={styles.ContainerFilms}>
-  <h2>Bienvenid@ a mi selección de películas favoritas</h2>
+  <h2>Bienvenid@ a nuestra web</h2>
+  <h4>Si te gusta el cine, éste es tu sitio.</h4>
+  <p>Aquí encontrarás una selección de las mejores películas</p>
     <Swiper className={styles.SwiperContainer}
       style={{
         "--swiper-navigation-color": "rgb(222, 244, 19)",
