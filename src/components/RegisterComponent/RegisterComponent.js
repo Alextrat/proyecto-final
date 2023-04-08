@@ -13,6 +13,7 @@ function registrar(){
   return(
     <form>
     <div>
+    <p></p>
       <div>
         <label for="email">Email</label>
         <input type='email'  placeholder='email' name = "email"></input>
