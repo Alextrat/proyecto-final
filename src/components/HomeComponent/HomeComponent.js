@@ -15,7 +15,9 @@ const HomeComponent = () => {
   const {films} = useContext(FilmsContext);
   
   return ( 
+    
   <div className={styles.ContainerFilms}>
+  <h2>Bienvenid@ a mi selección de películas favoritas</h2>
     <Swiper className={styles.SwiperContainer}
       style={{
         "--swiper-navigation-color": "rgb(222, 244, 19)",
