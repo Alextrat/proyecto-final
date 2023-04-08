@@ -31,6 +31,7 @@ function reset (){
   {/* <input value={valorInput} onChange={handleChange} type='search'></input> */}
   <input value={valorInput} onChange={handleChange} type='search'></input>
     <button onClick={reset}>Restablecer </button>
+    <input value="accion" name ="accion" type='checkbox'></input>
   </div>
 
 

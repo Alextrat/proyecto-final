@@ -47,8 +47,5 @@ const onSubmit = (ev) => {
       </form>
     </div>
   )
-
 };
-
-
 export default LoginComponent;

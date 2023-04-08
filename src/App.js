@@ -5,7 +5,7 @@ import {HomePage} from './pages/homePage/homePage';
 import {GalleryPage} from './pages/galleryPage/galleryPage';
 import {LoginPage} from './pages/loginPage/loginPage';
 import {RegisterPage} from './pages/registerPage/registerPage';
-import { FilmsContextProvider, login } from './context/context';
+import { FilmsContextProvider, login, register } from './context/context';
 import { useState } from 'react';
 import { PrivatePage } from './pages/privatePage/privatePage';
 import RequiredAuth from './components/RequiredAuth';
@@ -22,6 +22,10 @@ async function loginUser ({ email, password }) {
   const user = await login ({email, password})
   setUser(user)
 };
+async function registerUser ({ email, password, name, surname }) {
+  const user = await register ({email, password, name, surname})
+  setUser(user)
+};
 
 const logoutUser = () => setUser(null);
 
@@ -35,7 +39,7 @@ const logoutUser = () => setUser(null);
       <Route exact path="/" element={<HomePage/>}></Route>
       <Route exact path="/gallery" element={<GalleryPage/>}></Route>
       <Route exact path='/login' element={<LoginPage loginUser={loginUser}/>}></Route>
-      <Route exact path='/register' element={<RegisterPage/>}></Route>
+      <Route exact path='/register' element={<RegisterPage registerUser={registerUser}/>}></Route>
       <Route exact path="/film" element={<FilmComponent/>}></Route>
       <Route exact path='/private' element={
         <RequiredAuth authenticated={authenticated}>
