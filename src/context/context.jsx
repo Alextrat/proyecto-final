@@ -9,9 +9,15 @@ const url = "http://localhost:3000/"
 //función (login) que  muestra el usuario con el mail y la password
 export const login = async ({email, password}) => {
   const respuesta = await axios.post(`${url}login`,{email: email, password: password})
+  // const respuesta = await axios.get(`${url}login`,{email: email, password: password})
+
   return respuesta.data
 }
-
+// 
+export const register = async ({email, password, name, surname}) => {
+  const respuesta = await axios.post(`${url}register`,{email: email, password:password, name: name, surname: surname})
+  return respuesta.data
+}
 
 
 export const FilmsContextProvider = ({children}) => {
