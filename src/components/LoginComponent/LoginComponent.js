@@ -1,5 +1,4 @@
 import React, { useState, useContext} from 'react';
-import PropTypes from 'prop-types';
 import { FilmsContext } from '../../context/context';
 import styles from './LoginComponent.module.css';
 
@@ -48,12 +47,5 @@ const onSubmit = (ev) => {
       </form>
     </div>
   )
-
 };
-
-
-LoginComponent.propTypes = {};
-
-LoginComponent.defaultProps = {};
-
 export default LoginComponent;

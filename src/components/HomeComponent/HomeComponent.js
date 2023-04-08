@@ -39,8 +39,10 @@ const HomeComponent = () => {
       })}
     </Swiper>
 
+
   </div>
 )
+
 };
 
 HomeComponent.propTypes = {};
