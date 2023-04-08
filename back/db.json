@@ -11,13 +11,12 @@
         },
         {
         "id": 2,
-        "nombre": "Pulp Fiction",
-        "dirección": "Quentin Tarantino",
-        "año": 1994, 
-        "clasificacion": "Acción",
-        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUTnNVTW8xT3y97qIZ8op9FNtIXzmp6TPDcC0qpqTvvKNV9YT ",
-        "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín."
-
+        "nombre": "Cinema Paradiso",
+        "dirección": "Giuseppe Tornatore",
+        "año": 1988,
+        "clasificacion": "Drama",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ83RImkhpD0SGa5HAhj7g2aMEqX2c4c8cqLdjmD7WvdZxlgJ2y",
+        "sinopsis": "'Cinema Paradiso' es una historia de amor por el cine. Narra la historia de Salvatore, un niño de un pueblecito italiano en el que el único pasatiempo es ir al cine. Subyugado por las imágenes en movimiento, el chico cree ciegamente que el cine es magia; pero, un día, Alfredo, el operador, accede a enseñarle al pequeño los misterios y secretos que se ocultan detrás de una película. Salvatore va creciendo y llega el momento en el que debe abandonar el pueblo y buscarse la vida. Treinta años después recibe un mensaje, en el que le comunican que debe volver a casa."
         },
         {
         "id": 3,
@@ -187,7 +186,7 @@
         "dirección": "Peter Segal",
         "año": 2004,
         "clasificacion": "Comedia",
-        "caratula": "https://upload.wikimedia.org/wikipedia/en/9/9d/50FirstDates.jpg ",
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR75Eo7baEZrmk84z4Hm_-uk1xY4sMuelbI6FI0X-8ECEydiTBJ ",
         "sinopsis": "Henry Roth (Adam Sandler) es un biólogo marino de Hawaii que se pasa la vida inventando excusas para no comprometerse con las numerosas chicas con las que sale. Sin embargo, cuando conoce a la chica de sus sueños, la encantadora Lucy Whitmore (Drew Barrymore), surge un extraño problema en la relación: cuando Lucy se levanta por las mañanas no recuerda absolutamente nada de lo ocurrido el día anterior, de modo que Henry no tendrá más remedio que reconquistarla cada día."
         },
         {
@@ -201,12 +200,13 @@
         },
         {
         "id": 23,
-        "nombre": "Cinema Paradiso",
-        "dirección": "Giuseppe Tornatore",
-        "año": 1988,
-        "clasificacion": "Drama",
-        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ83RImkhpD0SGa5HAhj7g2aMEqX2c4c8cqLdjmD7WvdZxlgJ2y",
-        "sinopsis": "'Cinema Paradiso' es una historia de amor por el cine. Narra la historia de Salvatore, un niño de un pueblecito italiano en el que el único pasatiempo es ir al cine. Subyugado por las imágenes en movimiento, el chico cree ciegamente que el cine es magia; pero, un día, Alfredo, el operador, accede a enseñarle al pequeño los misterios y secretos que se ocultan detrás de una película. Salvatore va creciendo y llega el momento en el que debe abandonar el pueblo y buscarse la vida. Treinta años después recibe un mensaje, en el que le comunican que debe volver a casa."
+        "nombre": "Pulp Fiction",
+        "dirección": "Quentin Tarantino",
+        "año": 1994, 
+        "clasificacion": "Acción",
+        "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUTnNVTW8xT3y97qIZ8op9FNtIXzmp6TPDcC0qpqTvvKNV9YT ",
+        "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín."
+    
         },
         {
         "id": 24,
@@ -228,12 +228,12 @@
         },
         {
         "id": 26,
-        "nombre": "Figuras ocultas",
-        "dirección": "Theodore Melfi",
-        "año": 2016,
+        "nombre": "NÁUFRAGO",
+        "dirección": "Robert Zemeckis",
+        "año": 2000,
         "clasificacion": "Drama",
-        "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRFml8u_suhGoljFnZbolt0rTv1jtAyAQ9YKLAi9feMMnv9BMg7",
-        "sinopsis": "Narra la historia nunca contada de tres brillantes mujeres científicas afroamericanas, Katherine G. Johnson (Taraji P. Henson), Dorothy Vaughan (Octavia Spencer) y Mary Jackson (Janelle Monáe), que trabajaron en la agencia espacial NASA a comienzos de los años sesenta (en plena carrera espacial, y asimismo en mitad de la lucha por los derechos civiles de los negros estadounidenses) en el ambicioso proyecto de poner en órbita al astronauta John Glenn."
+        "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZYvKoWX1CNQ1AbeTcG4h2beViEegUTaz2gZP3m0gf6efdbWa-",
+        "sinopsis": "Chuck Noland, un ejecutivo de la empresa multinacional de mensajería FedEx, se ve apartado de su cómoda vida y de su prometida a causa de un accidente de avión que lo deja aislado de la civilización en una remota isla tropical en medio del océano. Tras cuatro años de lucha por la supervivencia, completamente solo en la isla, Chuck aprende todas las técnicas de subsistencia mientras sufre la tortura de la soledad. La solución: arriesgar la vida adentrándose mar adentro."
         },
         {
         "id": 27,
