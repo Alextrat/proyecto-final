@@ -22,8 +22,8 @@ async function loginUser ({ email, password }) {
   const user = await login ({email, password})
   setUser(user)
 };
-async function registerUser ({ email, password, name, surname }) {
-  const user = await register ({email, password, name, surname})
+async function registerUser ({ email, password, firstname, lastname }) {
+  const user = await register ({email, password, firstname, lastname})
   setUser(user)
 };
 
