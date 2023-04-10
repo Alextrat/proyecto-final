@@ -1,12 +1,8 @@
-import React, { useState, useContext} from 'react';
-import { FilmsContext } from '../../context/context';
+import React, { useState} from 'react';
 import styles from './LoginComponent.module.css';
 
 
-
 const LoginComponent = ({loginUser}) => { 
-const { users } = useContext(FilmsContext)
-console.log(users)
 
  //estado inicial con los valores de email y password
 const Initial_state = {

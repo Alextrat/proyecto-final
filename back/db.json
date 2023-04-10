@@ -397,6 +397,21 @@
       "email": "alex@mail.com",
       "password": "$2a$10$9DTRZfO6DNZVkXGD0gxJcuLKTm.KoGW69txUAQ60OqYnXNERihKHO",
       "id": 2
+    },
+    {
+      "email": "a@mail.com",
+      "password": "$2a$10$DxBX5oBRIYfvgDgjOkj.xOIdGBC/Tb3B.4PhL6.BwCdxAKwysyXxS",
+      "id": 3
+    },
+    {
+      "email": "prueba@prueba.com",
+      "password": "$2a$10$4BxYVWvbaA53kh1Ec/UpgeWlaYW9ZwYLzN6/KUGYLEodsoQLJ4iki",
+      "id": 4
+    },
+    {
+      "email": "prueba2@prueba.com",
+      "password": "$2a$10$Qd1LH7wSotTt5jFZ8rtLo.N8ZEAKjKNxRrQus2g.THcYu5Fdqx0uy",
+      "id": 5
     }
   ],
   "comments": [

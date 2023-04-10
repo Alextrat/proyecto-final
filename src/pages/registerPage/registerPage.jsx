@@ -1,8 +1,8 @@
 import React from 'react'
 import RegisterComponent from '../../components/RegisterComponent/RegisterComponent'
 
-export const RegisterPage = () => {
+export const RegisterPage = ({registerUser}) => {
   return (
-    <div><RegisterComponent/></div>
+    <div><RegisterComponent registerUser={registerUser}/></div>
   )
 }
