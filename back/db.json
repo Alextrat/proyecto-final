@@ -1,4 +1,87 @@
 {
+  "favoritas": [
+    {
+      "id": 1,
+      "nombre": "Cinema Paradiso",
+      "dirección": "Giuseppe Tornatore",
+      "año": 1988,
+      "clasificacion": "Drama",
+      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ83RImkhpD0SGa5HAhj7g2aMEqX2c4c8cqLdjmD7WvdZxlgJ2y",
+      "sinopsis": "'Cinema Paradiso' es una historia de amor por el cine. Narra la historia de Salvatore, un niño de un pueblecito italiano en el que el único pasatiempo es ir al cine. Subyugado por las imágenes en movimiento, el chico cree ciegamente que el cine es magia; pero, un día, Alfredo, el operador, accede a enseñarle al pequeño los misterios y secretos que se ocultan detrás de una película. Salvatore va creciendo y llega el momento en el que debe abandonar el pueblo y buscarse la vida. Treinta años después recibe un mensaje, en el que le comunican que debe volver a casa."
+    },
+    {
+      "id": 2,
+      "nombre": "Forrest Gump",
+      "dirección": "Robert Zemeckis",
+      "año": 1994,
+      "clasificacion": "Comedia",
+      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSgJaxEFJxdwh2SP1sAI92IQgaThjvJM6XSd1G2YEEqVwjqNnVF ",
+      "sinopsis": "Forrest Gump (Tom Hanks) sufre desde pequeño un cierto retraso mental. A pesar de todo, gracias a su tenacidad y a su buen corazón será protagonista de acontecimientos cruciales de su país durante varias décadas. Mientras pasan por su vida multitud de cosas en su mente siempre está presente la bella Jenny (Robin Wright), su gran amor desde la infancia, que junto a su madre será la persona más importante en su vida."
+    },
+    {
+      "id": 3,
+      "nombre": "El Rey León ",
+      "dirección": "Rob Minkoff, Roger Allers",
+      "año": 1994,
+      "clasificacion": "Animación",
+      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR99XsrvHv18Kc6zjVY-K0YSMA0dMhUqJRHSgIEF-uUfA6XmR-X",
+      "sinopsis": "La sabana africana es el escenario en el que tienen lugar las aventuras de Simba, un pequeño león que es el heredero del trono. Sin embargo, al ser injustamente acusado por el malvado Scar de la muerte de su padre, se ve obligado a exiliarse. Durante su destierro, hará buenas amistades e intentará regresar para recuperar lo que legítimamente le corresponde."
+    },
+    {
+      "id": 4,
+      "nombre": "El caso Bourne",
+      "dirección": "Doug Liman",
+      "año": 2002,
+      "clasificacion": "Acción",
+      "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRxS82BNWfAqupS7v8ruj_hQICxMqyWOU9YP4O3cCnbwNAGTvED",
+      "sinopsis": "Un hombre amnésico es rescatado por la tripulación de un barco pesquero italiano cuando flota a la deriva en el mar. No lleva nada consigo. Sólo las balas que lleva clavadas en la espalda y un número de cuenta de un banco suizo que lleva adherido a la cadera. Carece de identidad y de pasado, pero posee unas serie de talentos extraordinarios en artes lingüísticas, marciales y de autodefensa que sugieren una profesión de riesgo. Confuso y desorientado, emprende una frenética búsqueda para descubrir quién es y por qué su vida ha tomado un giro tan peligroso."
+    },
+    {
+      "id": 5,
+      "nombre": "Love Actually",
+      "dirección": "Richard Curtis",
+      "año": 2003,
+      "clasificacion": "Comedia",
+      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSWEfceOiWxyFKLLF6l8nsnuO2Ntyzltl8VKpg2ThV3M0g_t-7c",
+      "sinopsis": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. Love Actually es una manera abreviada de decir “Love Actually Is All Around” y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor."
+    },
+    {
+      "id": 6,
+      "nombre": "Las dos caras de la verdad",
+      "dirección": "Gregory Hoblit",
+      "año": 1996,
+      "clasificacion": "Suspense",
+      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT9dsE5VGNO-vGRyaZ8yRYaFtyTtSrXsG4F2nQSyRcTM7r6xVKO",
+      "sinopsis": "Martin Vail (Richard Gere), un ambicioso abogado de Chicago, es capaz de aceptar cualquier caso con tal de salir en la prensa. Un día decide ocuparse de uno que parece imposible de ganar: la defensa de Aaron (Edward Norton), un joven que es acusado del asesinato del arzobispo de Chicago, tras ser detenido mientras huía del escenario del crimen."
+    },
+    {
+      "id": 7,
+      "nombre": "Seven ",
+      "dirección": "David Fincher",
+      "año": 1995,
+      "clasificacion": "Suspense",
+      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7YWDPd586e-sTo1RuU9tw3-QMl0mWJJGcaVptlB19sV4UqzcM",
+      "sinopsis": "El veterano teniente Somerset (Morgan Freeman), del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso e impulsivo detective David Mills (Brad Pitt). Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta."
+    },
+    {
+      "id": 8,
+      "nombre": "El diario de Noa ",
+      "dirección": "Nick Cassavetes",
+      "año": 2004,
+      "clasificacion": "Drama",
+      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTZfAvQ4lq-p5CrO2gPGnTT7wdMdSq7BVkQwD68-fLvchs7SXy6",
+      "sinopsis": "En una residencia de ancianos, un hombre (James Garner) lee a una mujer (Gena Rowlands) una historia de amor escrita en su viejo cuaderno de notas. Es la historia de Noah Calhoun (Ryan Gosling) y Allie Hamilton (Rachel McAdams), dos jóvenes adolescentes de Carolina del Norte que, a pesar de vivir en dos ambientes sociales muy diferentes, se enamoraron profundamente y pasaron juntos un verano inolvidable, antes de ser separados, primero por sus padres, y más tarde por la guerra."
+    },
+    {
+      "id": 9,
+      "nombre": "La teoría del todo",
+      "dirección": "James Marsh",
+      "año": 2014,
+      "clasificacion": "Drama",
+      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZoyUs7KW3ukXRnZ5DqSa4ZlSA9IMuNKXaA529TuQ2wI-zCk4D",
+      "sinopsis": "Narra la relación entre el célebre astrofísico Stephen Hawking y su primera mujer, Jane, desde que ambos se conocieron siendo estudiantes en la Universidad de Cambridge a principios de los 60 y a lo largo de 25 años, especialmente en su lucha juntos contra la enfermedad degenerativa que postró al famoso científico en una silla de ruedas."
+    }
+  ],
   "peliculas": [
     {
       "id": 1,
@@ -412,6 +495,34 @@
       "email": "prueba2@prueba.com",
       "password": "$2a$10$Qd1LH7wSotTt5jFZ8rtLo.N8ZEAKjKNxRrQus2g.THcYu5Fdqx0uy",
       "id": 5
+    },
+    {
+      "email": "ana@mail.com",
+      "password": "$2a$10$ggw7RLWZzYvwx9XLF6TAtu.s31UKQVcprz4AvQiqZNFR8SJoHMCX2",
+      "id": 6
+    },
+    {
+      "email": "oscar1@mail.com",
+      "password": "$2a$10$mhInpu.QyWp6FkMlz4s2J.N9lIlYN6d0kXGG0nRS0Xf4i3aSd.wcy",
+      "name": "Óscar",
+      "surname": "Gallardo",
+      "id": 7
+    },
+    {
+      "email": "rocio@mail.com",
+      "password": "$2a$10$gFNoFok0COCFR8ADHsXVLe61AUs8feHh/NwEG2f8wc9JQLRPocgpa",
+      "name": "Rocío",
+      "surname": "Rosa",
+      "isAdmin": true,
+      "id": 8
+    },
+    {
+      "email": "alejandro@mail.com",
+      "password": "$2a$10$aB7Xje/h/W13SsEKMKKjhOZu7MRyplrR2bhOeCRUenJZcdwGwsbw2",
+      "name": "Alejandro",
+      "surname": "Alextrat",
+      "isAdmin": true,
+      "id": 9
     }
   ],
   "comments": [

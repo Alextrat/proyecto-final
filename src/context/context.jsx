@@ -25,6 +25,16 @@ export const FilmsContextProvider = ({children}) => {
   const [rankings, setRankings] = useState([])
   const [comments, setComments] = useState([])
   const [ users, setUsers] = useState([])
+  const [favourites, setFavourites] = useState([])
+
+
+  useEffect(()=>{
+    const getFavourites = async () => {
+      const favouritesApi = await axios.get(`${url}favoritas`)
+      setFavourites(favouritesApi.data)
+    }
+    getFavourites()
+  }, [])
 
   useEffect(()=>{
     const getFilms = async () =>{
@@ -59,7 +69,7 @@ export const FilmsContextProvider = ({children}) => {
 
   },[])
   return (
-    <FilmsContext.Provider value={{films, rankings, comments, users}}>
+    <FilmsContext.Provider value={{favourites, films, rankings, comments, users}}>
         {children}
     </FilmsContext.Provider>
   )
