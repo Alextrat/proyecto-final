@@ -12,30 +12,29 @@ import 'swiper/css/navigation';
 
 
 const HomeComponent = () => { 
-  const {films} = useContext(FilmsContext);
+  const {favourites} = useContext(FilmsContext);
   
   return ( 
     
   <div className={styles.ContainerFilms}>
-  <h2>Bienvenid@ a nuestra web</h2>
-  <h4>Si te gusta el cine, éste es tu sitio.</h4>
-  <p>Aquí encontrarás una selección de las mejores películas</p>
+  
+  <h2>PELICULAS RECOMENDADAS DEL MES</h2>
     <Swiper className={styles.SwiperContainer}
       style={{
-        "--swiper-navigation-color": "rgb(222, 244, 19)",
-        "--swiper-navigation-border": "solid rgb(222, 244, 19) 2px"
+        "--swiper-navigation-color": "rgb(206, 64, 242)",
+        "--swiper-navigation-border": "solid rgb(206, 64, 242) 2px"
       }}
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={5}
         slidesPerView={3}
-        autoplay={{delay:1000}}
+        autoplay={{delay:1500}}
         navigation={true}
         >
 
-      {films.map(film => {
+      {favourites.map(favourite => {
         return(
           <SwiperSlide className={styles.Container}>
-          <img src={film.caratula} alt={film.nombre}></img>
+          <img src={favourite.caratula} alt={favourite.nombre}></img>
           </SwiperSlide>
         )
       })}
