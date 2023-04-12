@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { FilmsContext } from '../../context/context';
 import styles from './GalleryComponent.module.css'
 import { Link } from 'react-router-dom';
+import { CLOSING } from 'ws';
 
 const GalleryComponent = () => {
   const { films }= useContext(FilmsContext)
@@ -11,7 +12,12 @@ const GalleryComponent = () => {
   function handleChange(e){   
     e.preventDefault()
     setValorInput(e.target.value)
-    search(e.target.value)
+    if(e.target.value!== ""){
+      search(e.target.value)
+    }
+   else{
+    reset()
+   }
 }
 function search ( busqueda){
   let filtered = filmsPrint.filter((film) =>
@@ -24,14 +30,13 @@ function reset (){
   setFilmsPrint(films)
    setValorInput("")
 }
+
   
   return(
     <div>
   <div className={styles.searchbar}>
-  {/* <input value={valorInput} onChange={handleChange} type='search'></input> */}
   <input value={valorInput} onChange={handleChange} type='search'></input>
     <button onClick={reset}>Restablecer </button>
-    <input value="accion" name ="accion" type='checkbox'></input>
   </div>
 
 
@@ -40,7 +45,10 @@ function reset (){
       <>
         {filmsPrint.map((film)=>(
           <>
-          <Link to = "/film">
+          
+        
+          <Link to = {`/film/${film.id}`}>
+          
         <div className={styles.gallery_item}>
         {/* <h3 key={film.id}>{film.id}</h3> */}
         <h3 key={film.id}>{film.nombre}</h3>  
