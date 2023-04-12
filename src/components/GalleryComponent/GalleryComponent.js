@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
 
-const GalleryComponent = () => {
+const GalleryComponent = ({user}) => {
   const { films }= useContext(FilmsContext)
   const [filmsPrint, setFilmsPrint] = useState(films)
   const [valorInput, setValorInput]= useState([])
@@ -50,6 +50,7 @@ function reset (){
         {/* <h3>{film.año}</h3>   */}
         {/* <h3>{film.clasificacion}</h3> */}
         <img className={styles.gallery_img} src={film.caratula} alt={film.nombre}></img>
+         {user?  <button>🗑️</button>: ''}
         </div>   
         </Link>
 
