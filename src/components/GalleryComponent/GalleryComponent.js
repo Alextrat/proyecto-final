@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react';
 import { FilmsContext } from '../../context/context';
 import styles from './GalleryComponent.module.css'
 import { Link } from 'react-router-dom';
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
 
 const GalleryComponent = () => {
   const { films }= useContext(FilmsContext)
@@ -34,8 +36,9 @@ function reset (){
     <input value="accion" name ="accion" type='checkbox'></input>
   </div>
 
-
+  <SimpleBar style={{ maxHeight: 700, color:'white'}}>
     <div className={styles.gallery}>
+    
     {films.length?(
       <>
         {filmsPrint.map((film)=>(
@@ -49,12 +52,15 @@ function reset (){
         <img className={styles.gallery_img} src={film.caratula} alt={film.nombre}></img>
         </div>   
         </Link>
+
         </>
         ))} 
     </>
     )   :   (<p>Cargando...</p>)}
     </div>
+    </SimpleBar>
     </div>
+    
 );}
 
 
