@@ -19,12 +19,12 @@ const authenticated = user != null;
 
  //función para pasar el email y el password desde context.js para que setUser recoja el usuario encontrado:
 async function loginUser ({ email, password }) {
-  const user = await login ({email, password})
-  setUser(user)
+  const loginInfo = await login ({email, password})
+  setUser(loginInfo.user)
 };
 async function registerUser ({ email, password, firstname, lastname }) {
-  const user = await register ({email, password, firstname, lastname})
-  setUser(user)
+  const registerInfo = await register ({email, password, firstname, lastname})
+  setUser(registerInfo.user)
 };
 
 const logoutUser = () => setUser(null);
@@ -37,13 +37,13 @@ const logoutUser = () => setUser(null);
     <FilmsContextProvider>
       <Routes>
       <Route exact path="/" element={<HomePage/>}></Route>
-      <Route exact path="/gallery" element={<GalleryPage/>}></Route>
-      <Route exact path='/login' element={<LoginPage loginUser={loginUser}/>}></Route>
+      <Route exact path="/gallery" element={<GalleryPage user={user}/>}></Route>
+      <Route exact path='/login' element={<LoginPage user={user} loginUser={loginUser}/>}></Route>
       <Route exact path='/register' element={<RegisterPage registerUser={registerUser}/>}></Route>
       <Route exact path="/film" element={<FilmComponent/>}></Route>
       <Route exact path='/private' element={
         <RequiredAuth authenticated={authenticated}>
-          <PrivatePage></PrivatePage>
+          <PrivatePage user={user}></PrivatePage>
         </RequiredAuth>
       }></Route>
       </Routes>

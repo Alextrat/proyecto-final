@@ -2,10 +2,10 @@ import React from 'react';
 import PrivateComponent from '../../components/PrivateComponent/PrivateComponent';
 
 
-export const PrivatePage = () => {
+export const PrivatePage = ({user}) => {
     return (
         <div>
-            <PrivateComponent/>
+            <PrivateComponent user={user}/>
         </div>
     )
 }
