@@ -2,9 +2,12 @@ import React, { useContext, useState } from 'react';
 import { FilmsContext } from '../../context/context';
 import styles from './GalleryComponent.module.css'
 import { Link } from 'react-router-dom';
-import { CLOSING } from 'ws';
 
-const GalleryComponent = () => {
+import SimpleBar from 'simplebar-react';
+import 'simplebar-react/dist/simplebar.min.css';
+
+
+const GalleryComponent = ({user}) => {
   const { films }= useContext(FilmsContext)
   const [filmsPrint, setFilmsPrint] = useState(films)
   const [valorInput, setValorInput]= useState([])
@@ -39,8 +42,9 @@ function reset (){
     <button onClick={reset}>Restablecer </button>
   </div>
 
-
+  <SimpleBar style={{ maxHeight: 700, color:'white'}}>
     <div className={styles.gallery}>
+    
     {films.length?(
       <>
         {filmsPrint.map((film)=>(
@@ -55,14 +59,18 @@ function reset (){
         {/* <h3>{film.año}</h3>   */}
         {/* <h3>{film.clasificacion}</h3> */}
         <img className={styles.gallery_img} src={film.caratula} alt={film.nombre}></img>
+         {user?  <button>🗑️</button>: ''}
         </div>   
         </Link>
+
         </>
         ))} 
     </>
     )   :   (<p>Cargando...</p>)}
     </div>
+    </SimpleBar>
     </div>
+    
 );}
 
 

@@ -1,10 +1,10 @@
 import React from 'react'
 import GalleryComponent from '../../components/GalleryComponent/GalleryComponent'
 
-export const GalleryPage = () => {
+export const GalleryPage = ({user}) => {
   return (
     <div>
-        <GalleryComponent/>
+        <GalleryComponent user={user}/>
     </div>
   )
 }
