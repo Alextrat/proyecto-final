@@ -40,7 +40,8 @@ const logoutUser = () => setUser(null);
       <Route exact path="/gallery" element={<GalleryPage user={user}/>}></Route>
       <Route exact path='/login' element={<LoginPage user={user} loginUser={loginUser}/>}></Route>
       <Route exact path='/register' element={<RegisterPage registerUser={registerUser}/>}></Route>
-      <Route exact path="/film" element={<FilmComponent/>}></Route>
+      {/* el /: */}
+      <Route exact path="/film/:id" element={<FilmComponent/>}></Route>
       <Route exact path='/private' element={
         <RequiredAuth authenticated={authenticated}>
           <PrivatePage user={user}></PrivatePage>
