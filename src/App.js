@@ -10,7 +10,7 @@ import { useState } from 'react';
 import { PrivatePage } from './pages/privatePage/privatePage';
 import RequiredAuth from './components/RequiredAuth';
 import FilmComponent from './components/filmComponent/filmComponent';
-
+import FooterComponent from './components/FooterComponent/FooterComponent';
 
 function App() {
 const [user, setUser] = useState(null);
@@ -34,6 +34,7 @@ const logoutUser = () => setUser(null);
     {/*a NavComponent le paso authenticated para que sepa cuándo pintar el botón de login o logout y le paso la función logout para que la pueda usar */}
     <NavComponent authenticated={authenticated} logoutUser={logoutUser}/>
     {/* {authenticated ? <p>{user.username}</p> : <p>No hay usuario</p>} */}
+    <main> 
     <FilmsContextProvider>
       <Routes>
       <Route exact path="/" element={<HomePage/>}></Route>
@@ -49,6 +50,8 @@ const logoutUser = () => setUser(null);
       }></Route>
       </Routes>
     </FilmsContextProvider>
+    </main>
+    <FooterComponent></FooterComponent>
     </div>
   );
 }
