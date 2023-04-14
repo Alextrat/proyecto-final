@@ -45,7 +45,7 @@ const RegisterComponent = ({registerUser}) => {
         <input type='text' id='lastname' value={FormUser.lastname} onChange={handleInput}></input>
       </div>
     </div>
-    <button className={styles.ButtonReg} type='submit'>Regístrate</button>
+    <button className={styles.PrivateButton} type='submit'>Regístrate</button>
     </form>
     </div>
   )

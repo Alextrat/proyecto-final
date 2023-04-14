@@ -11,7 +11,8 @@ const NavComponent = ({authenticated, logoutUser}) => (
       <li className={styles.NavLi}><Link className={styles.NavA} to ="/gallery">Películas</Link></li>
       <li className={styles.NavLi}><Link className={styles.NavA} to ="/register">Regístrate</Link></li>
       <li className={styles.NavLi}><Link className={styles.NavA} to ="/private">Área Privada</Link></li>
-      {authenticated ? (<li className={styles.NavLi}><Link className={styles.NavA} onClick={logoutUser}>| LogOut | </Link></li>) :
+      {authenticated ? 
+      (<li className={styles.NavLi}><Link className={styles.NavA} onClick={logoutUser}>| LogOut | </Link></li>) :
       (<li className={styles.NavLi}><Link className={styles.NavA} to ="/login">LogIn</Link></li>)}
       
 

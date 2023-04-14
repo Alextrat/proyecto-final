@@ -7,24 +7,24 @@ const PrivateComponent = ({user}) => {
 
   
   return (
-    <div>
-      <form>
-        <fieldset>
-          <legend>
-            Datos personales
+    <div className={styles.PrivateContainer}>
+      <form className={styles.PrivateForm}>
+      <h1 className={styles.Saludo}> Hola {user.name} </h1>
+        <fieldset className={styles.PrivateFieldset}>
+          <legend className={styles.PrivateLegend}>
+            Tus datos personales son: 
           </legend>
-          <label>Nombre:</label>
-          <input defaultValue={user.name}/>
+          <label className={styles.PrivateLabel}>Nombre:</label>
+          <input className={styles.PrivateInput} defaultValue={user.name}/>
           <br></br>
-          <label>Apellido:</label>
-          <input defaultValue={user.surname}/>
+          <label className={styles.PrivateLabel}>Apellido:</label>
+          <input className={styles.PrivateInput} defaultValue={user.surname}/>
           <br></br>
-          <label>Email:</label>
-          <input defaultValue={user.email}/>
+          <label className={styles.PrivateLabel}>Email:</label>
+          <input className={styles.PrivateInput} defaultValue={user.email}/>
           <br></br>
-          <label>Id:</label>
-          <input defaultValue={user.id}/>
         </fieldset>
+        <button className={styles.ButtonReg} type="button">OK</button>
       </form>
     </div>
   )
