@@ -91,17 +91,18 @@
       "clasificacion": "Terror",
       "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ8cqibPp3XYq9TBV07zzClp64xHde3etHP0d432XM917HEbra1 ",
       "sinopsis": "El doctor Malcom Crowe es un conocido psicólogo infantil de Philadelphia que vive obsesionado por el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cuando conoce a Cole Sear, un aterrorizado y confuso niño de ocho años que necesita tratamiento, ve que se le presenta la oportunidad de redimirse haciendo todo lo posible por ayudarlo. Sin embargo, el doctor Crowe no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados."
-    },
-    {
+      },
+      {
       "id": 2,
-      "nombre": "Cinema Paradiso",
-      "dirección": "Giuseppe Tornatore",
-      "año": 1988,
-      "clasificacion": "Drama",
-      "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ83RImkhpD0SGa5HAhj7g2aMEqX2c4c8cqLdjmD7WvdZxlgJ2y",
-      "sinopsis": "'Cinema Paradiso' es una historia de amor por el cine. Narra la historia de Salvatore, un niño de un pueblecito italiano en el que el único pasatiempo es ir al cine. Subyugado por las imágenes en movimiento, el chico cree ciegamente que el cine es magia; pero, un día, Alfredo, el operador, accede a enseñarle al pequeño los misterios y secretos que se ocultan detrás de una película. Salvatore va creciendo y llega el momento en el que debe abandonar el pueblo y buscarse la vida. Treinta años después recibe un mensaje, en el que le comunican que debe volver a casa."
-    },
-    {
+      "nombre": "Pulp Fiction",
+      "dirección": "Quentin Tarantino",
+      "año": 1994, 
+      "clasificacion": "Acción",
+      "caratula": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZUTnNVTW8xT3y97qIZ8op9FNtIXzmp6TPDcC0qpqTvvKNV9YT ",
+      "sinopsis": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su atractiva mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín."
+
+      },
+      {
       "id": 3,
       "nombre": "Todo Sobre Mi Madre",
       "dirección": "Pedro Almodóvar",
@@ -109,17 +110,17 @@
       "clasificacion": "Drama",
       "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRQ-JpM4u-s1uu1_fE6Worg8SAl1YzkTUNv-i2u4GHxTE_9nKDn ",
       "sinopsis": "Madrid. Manuela, una madre soltera, ve morir a su hijo el día en que cumple 17 años, por echarse a correr para conseguir el autógrafo de Huma Rojo, su actriz favorita. Destrozada, Manuela viaja entonces a Barcelona en busca del padre del chico."
-    },
-    {
+      },
+      {
       "id": 4,
       "nombre": "300",
       "dirección": "Zack Snyder",
-      "año": 2006,
+      "año":2006,
       "clasificacion": "Acción",
       "caratula": "https://es.web.img3.acsta.net/medias/nmedia/18/67/71/17/20027466.jpg ",
       "sinopsis": "Adaptación del cómic de Frank Miller (autor del cómic 'Sin City') sobre la famosa batalla de las Termópilas (480 a.C.). El objetivo de Jerjes, emperador de Persia, era la conquista de Grecia, lo que desencadenó las Guerras Médicas. Dada la gravedad de la situación, el rey Leónidas de Esparta (Gerard Butler) y 300 espartanos se enfrentaron a un ejército persa que era inmensamente superior. "
-    },
-    {
+      },
+      {
       "id": 5,
       "nombre": "El silencio de los corderos",
       "dirección": "Jonathan Demme",
@@ -127,7 +128,7 @@
       "clasificacion": "Suspense",
       "caratula": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8Mj9G4tsKR_traZ-QZFhKEx9BRP6Gj9AiH8Hjm4_86ByxS99T ",
       "sinopsis": "El FBI busca a Buffalo Bill, un asesino en serie que mata a sus víctimas, todas adolescentes, después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo recurren a Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado al Dr. Hannibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta del asesino que están buscando."
-    },
+      },
     {
       "id": 6,
       "nombre": "Forrest Gump",
@@ -145,15 +146,6 @@
       "clasificacion": "Animación",
       "caratula": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjw1xP61nhC8NCkGYlfqyan2ToW5OoGSclcw0IJTvOxBHttTfC ",
       "sinopsis": "Miguel es un joven con el sueño de convertirse en leyenda de la música a pesar de la prohibición de su familia. Su ídolo es Ernesto de la Cruz, el músico y cantante más famoso de México. La pasión de Miguel le llevará a adentrarse en la Tierra de los Muertos, donde conocerá su verdadero legado familiar."
-    },
-    {
-      "id": 8,
-      "nombre": "Luca",
-      "dirección": "Enrico Casarosa",
-      "año": 2021,
-      "clasificacion": "Animación",
-      "caratula": "https://pics.filmaffinity.com/luca-907827591-large.jpg",
-      "sinopsis": "La historia se desarrolla en un hermoso pueblo al lado del mar en la Riviera Italiana. Es la del crecimiento de un niño que experimenta un verano inolvidable con helado, pasta e interminables viajes en scooter. Luca comparte estas aventuras con su nuevo mejor amigo, pero toda la diversión se ve amenazada por un gran secreto: es un monstruo marino de otro mundo ubicado justo debajo de la superficie del agua."
     },
     {
       "id": 9,
@@ -509,10 +501,10 @@
       "id": 7
     },
     {
-      "email": "rocio@mail.com",
+      "email": "rocio1@mail.com",
       "password": "$2a$10$gFNoFok0COCFR8ADHsXVLe61AUs8feHh/NwEG2f8wc9JQLRPocgpa",
-      "name": "Rocío",
-      "surname": "Rosa",
+      "name": "Mª Rocío",
+      "surname": "Rosas",
       "isAdmin": true,
       "id": 8
     },
