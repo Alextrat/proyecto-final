@@ -523,6 +523,20 @@
       "surname": "Alextrat",
       "isAdmin": true,
       "id": 9
+    },
+    {
+      "email": "alexx@mail.com",
+      "password": "$2a$10$LlH0Mj97q7IsOx3thQ2/hu2jSqI/QKgqzHPBwc.KSk0hrbsE2jRpm",
+      "firstname": "Alex",
+      "lastname": "Pérez",
+      "id": 10
+    },
+    {
+      "email": "1@1.com",
+      "password": "$2a$10$25R5d.yTAhkitklqalLTSe0HIB4Wj7Y8yLC.2bovL5EYGd11zXAAy",
+      "firstname": "1",
+      "lastname": "1",
+      "id": 11
     }
   ],
   "comments": [
