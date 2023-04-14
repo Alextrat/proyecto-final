@@ -54,7 +54,7 @@
     position: relative;
     border-radius: 12px;
 }
-button::before {
+.PrivateButton::before {
     content: "";
     position: absolute;
     top:0;

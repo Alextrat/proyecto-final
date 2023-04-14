@@ -24,7 +24,7 @@ const PrivateComponent = ({user}) => {
           <input className={styles.PrivateInput} defaultValue={user.email}/>
           <br></br>
         </fieldset>
-        <button className={styles.ButtonReg} type="button">OK</button>
+        <button className={styles.PrivateButton} type="button">OK</button>
       </form>
     </div>
   )
