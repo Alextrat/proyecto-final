@@ -18,18 +18,20 @@ const FilmComponent = () => {
     })
   },[])
   return(
-  <div className='filmCardContainter'>
-   
+  <div className={styles.filmCardContainter}>
     {film? 
     <>
     <h2>{film.nombre}</h2>
+   
     <img src={film.caratula} alt={film.name}></img>
-    <h3>{film.dirección}</h3>
-    <h3>{film.año}</h3>
-    <h3>{film.clasificacion}</h3>
+
+    <h4>{film.dirección}</h4>
+    <h4>{film.año}</h4>
+    <h4>{film.clasificacion}</h4>
     <p>{film.sinopsis}</p>
     </>
     : 'cargando...'}
+    <input type='text'></input>
   </div>)
 };
 

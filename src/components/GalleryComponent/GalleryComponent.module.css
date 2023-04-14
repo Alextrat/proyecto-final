@@ -1,4 +1,13 @@
-
+.searchbar{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    border-radius: 10%;
+    width: 400px;
+}
+input{
+    /* background: rgb(167, 160, 242); */
+}
 .gallery{
     margin-left: 15px;
     margin-top: 30px;
@@ -6,35 +15,40 @@
     flex-wrap: wrap; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
+    color: rgb(167, 160, 242);
+    /* color: rgb(222, 244, 19); */
 }
 
 .gallery_img{
-    padding: 1%;
+    padding: auto;
+    min-height: 400px;
     max-width: 250px;
-}
-.gallery_item{
-    padding: 1%;
 
+    border: solid white;
 }
+
 h3{
     text-align: left;
     margin-left: 20%;
     padding: 3%;
-    font-size: small;
-    max-width: 220px;
-}
-.searchbar{
-    display: flex;
-    width: 50%;
+    font-size:medium;
+    max-width: 300px;
+    max-height: fit-content;
 }
 
 button{
     color: black;
+    font-style:italic;
+    font-weight: 600;
+    background-color: rgb(167, 160, 242);
+
     padding: 8px;
     height: 40px;
+    border-radius: 10%;
+    margin-left: 10px;
 }
-input{
-    /* width: 30%; */
-    color: black;
+
+.bin{
+    margin-top: 30px;
+    background-color:black;
 }

@@ -46,7 +46,8 @@ const GalleryComponent = ({ user, id }) => {
   console.log(id);
 
   return (
-    <div>
+    <main>
+    <br></br>
       <div className={styles.searchbar}>
         <input value={valorInput} onChange={handleChange} type="search"></input>
         <button onClick={reset}>Restablecer </button>
@@ -59,20 +60,16 @@ const GalleryComponent = ({ user, id }) => {
               {filmsPrint.map((film) => (
                 <>
                   <div className={styles.gallery_item}>
-                    {/* <h3 key={film.id}>{film.id}</h3> */}
-                    <h3 key={film.id}>{film.nombre}</h3>
-                    {/* <h3>{film.año}</h3>   */}
-                    {/* <h3>{film.clasificacion}</h3> */}
+                    <h3 key={film.id}>{film.nombre}</h3>         
                     <Link to={`/film/${film.id}`}>
-                      <img
-                        className={styles.gallery_img}
-                        src={film.caratula}
-                        alt={film.nombre}
-                      ></img>
+                      <img className={styles.gallery_img} src={film.caratula} alt={film.nombre}></img>
                     </Link>
 
                     {user ? (
-                      <button onClick={() => removeFilm(film.id)}>🗑️</button>
+                      <>
+                      <br></br>
+                      <button className={styles.bin} onClick={() => removeFilm(film.id)}>🗑️</button>
+                      </>
                     ) : (
                       ""
                     )}
@@ -85,7 +82,7 @@ const GalleryComponent = ({ user, id }) => {
           )}
         </div>
       </SimpleBar>
-    </div>
+    </main>
   );
 };
 
