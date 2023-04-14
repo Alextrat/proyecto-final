@@ -19,6 +19,11 @@ export const register = async ({email, password, firstname, lastname}) => {
   return respuesta.data
 }
 
+//función para borrar una película de la galería si el usuario está logueado
+export const deleteFilm = async ({id}) => {
+  const respuesta = await axios.delete(`${url}peliculas`, {id:id})
+  return respuesta.data
+}
 
 export const FilmsContextProvider = ({children}) => {
   const [films, setFilms] = useState([])

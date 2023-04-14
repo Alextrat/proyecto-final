@@ -13,6 +13,12 @@ const PrivateComponent = ({user}) => {
           <legend>
             Datos personales
           </legend>
+          <label>Nombre:</label>
+          <input defaultValue={user.name}/>
+          <br></br>
+          <label>Apellido:</label>
+          <input defaultValue={user.surname}/>
+          <br></br>
           <label>Email:</label>
           <input defaultValue={user.email}/>
           <br></br>

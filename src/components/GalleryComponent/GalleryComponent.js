@@ -7,7 +7,7 @@ import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
 
 
-const GalleryComponent = ({user}) => {
+const GalleryComponent = ({user, id}) => {
   const { films }= useContext(FilmsContext)
   const [filmsPrint, setFilmsPrint] = useState(films)
   const [valorInput, setValorInput]= useState([])
@@ -34,6 +34,11 @@ function reset (){
    setValorInput("")
 }
 
+function deleteFilm (id) {
+  setFilmsPrint(filmsPrint.filter(films=>films.id===id))
+}
+console.log(id)
+
   
   return(
     <div>
@@ -59,7 +64,7 @@ function reset (){
         {/* <h3>{film.año}</h3>   */}
         {/* <h3>{film.clasificacion}</h3> */}
         <img className={styles.gallery_img} src={film.caratula} alt={film.nombre}></img>
-         {user?  <button>🗑️</button>: ''}
+         {user?  <button onClick={() => deleteFilm(films.id)}>🗑️</button>: ''}
         </div>   
         </Link>
 
