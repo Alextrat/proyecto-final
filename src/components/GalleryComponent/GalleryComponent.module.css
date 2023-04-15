@@ -6,7 +6,7 @@
     width: 400px;
 }
 input{
-    /* background: rgb(167, 160, 242); */
+     background: white; 
 }
 .gallery{
     margin-left: 15px;
@@ -14,41 +14,51 @@ input{
     /* display: flex;  
     flex-wrap: wrap; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: rgb(167, 160, 242);
-    /* color: rgb(222, 244, 19); */
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .gallery_img{
-    padding: auto;
+    padding: 40px;
     min-height: 400px;
-    max-width: 250px;
-
-    border: solid white;
+    max-width: 500px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: solid 3px yellow;
 }
 
-h3{
+.gallery_item > p{
+    margin-top: 20px;
     text-align: left;
     margin-left: 20%;
     padding: 3%;
-    font-size:medium;
-    max-width: 300px;
+    font-size:18px;
+    max-width: 500px;
     max-height: fit-content;
+    color: yellow;
 }
 
-button{
-    color: black;
-    font-style:italic;
-    font-weight: 600;
-    background-color: rgb(167, 160, 242);
+.searchbar {
+    margin-top: 60px;
+    margin-left: 40%;
+}
 
+.searchbar > button{
+    color: black;
+    font-weight: 600;
+    background-color: yellow;
     padding: 8px;
     height: 40px;
     border-radius: 10%;
     margin-left: 10px;
+    
 }
 
 .bin{
-    margin-top: 30px;
     background-color:black;
+    margin-bottom: 30px;
+    border-color: yellow;
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
 }

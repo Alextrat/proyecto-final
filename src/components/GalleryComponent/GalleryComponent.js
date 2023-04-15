@@ -60,7 +60,7 @@ const GalleryComponent = ({ user, id }) => {
               {filmsPrint.map((film) => (
                 <>
                   <div className={styles.gallery_item}>
-                    <h3 key={film.id}>{film.nombre}</h3>         
+                    <p key={film.id}>{film.nombre}</p>         
                     <Link to={`/film/${film.id}`}>
                       <img className={styles.gallery_img} src={film.caratula} alt={film.nombre}></img>
                     </Link>

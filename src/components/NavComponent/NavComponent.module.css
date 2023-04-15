@@ -11,7 +11,8 @@
 }
 
 .NavA{
-    color:rgb(222, 244, 19)
+    /*color:rgb(222, 244, 19)*/
+    color: yellow;
 
 }
 .NavLi{
