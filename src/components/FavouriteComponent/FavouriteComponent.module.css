@@ -1,23 +1,11 @@
-.InfoHome {
-    background-color: blueviolet;
-    display:inline;
-    justify-content: space-between;
-}
-.ImagenInfo {
-
-
-}
-
-.InfoText {
-
-}
-
 .ContainerFilms {
+    background-color: black;
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align: right;
+    padding-top: 30px;
 }
 .ContainerFilms > h2 {
     color: yellow;

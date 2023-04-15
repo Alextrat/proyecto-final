@@ -4,12 +4,16 @@
     color: black;
     border-radius: 10%;
     width: 400px;
+    margin-top: 20px;
+    margin-left: 40%;
 }
 input{
-     background: white; 
+    background: white; 
+    border-radius: 5px;
 }
 .gallery{
-    margin-left: 15px;
+    background-color: black;
+    
     margin-top: 30px;
     /* display: flex;  
     flex-wrap: wrap; */
@@ -44,8 +48,7 @@ input{
 }
 
 .searchbar {
-    margin-top: 60px;
-    margin-left: 40%;
+   
 }
 
 .searchbar > button{

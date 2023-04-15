@@ -1,6 +1,7 @@
 .Footer {
     color: white;
     font-size: small;
+    margin: 30px;
     
     }
 
@@ -18,7 +19,8 @@
 list-style: none;
 font-size: small;
 margin-left: 75px;
-padding: 25px 0;
+margin-bottom: 10px;
+padding: 25px 10px;
 display: flex;
 float:left;
 
@@ -27,4 +29,7 @@ float:left;
 
 .FooterA {
     color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
