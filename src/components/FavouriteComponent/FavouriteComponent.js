@@ -13,12 +13,15 @@ import 'swiper/css/navigation';
 
 const FavouriteComponent = () => { 
 const {favourites} = useContext(FilmsContext);
+const getCurrentMonth = () => {
+    return new Date().getMonth;
+}
 
 
     return ( 
     <>
     <div className={styles.ContainerFilms}>
-    <h3>Mis Favoritas Del Mes</h3> 
+    
     <Swiper className={styles.SwiperContainer}
     style={{
         "--swiper-navigation-color": "yellow",

@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import styles from './HomeComponent.module.css'
+import FavouriteComponent from '../FavouriteComponent/FavouriteComponent';
 
 
 
@@ -10,10 +11,10 @@ import styles from './HomeComponent.module.css'
 
 const HomeComponent = () => (
   <div className={styles.HomeComponent}>
-    <h1 className={styles.Name}>Cine & Palomitas </h1>
+    <h1 className={styles.Name}>Bienvenid@ a Cine & Palomitas </h1>
+    <p className={styles.NameP}>En esta sección, encontrarás cada mes, una selección de mis películas favoritas</p>
       <div className={styles.HomeLinks}>
-        <Link className={styles.HomeNavLink} to='/carta'>Carta</Link> 
-        <Link className={styles.HomeNavLink} to='/reservas'>Reservas & contacto</Link>
+      <FavouriteComponent></FavouriteComponent>
       </div>
   </div>
 );

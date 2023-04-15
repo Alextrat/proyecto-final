@@ -1,8 +1,12 @@
 
 .HomeComponent{
-    background-color: brown;
+    background-color: black;
 }
 .Name {
-    
+    color: yellow;
     margin-top: 50px;
+}
+.NameP {
+    font-size: 20px;
+    margin-top: 20px;
 }
