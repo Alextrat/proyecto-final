@@ -1,22 +1,19 @@
-.ContainerFilms {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
 
-    text-align: center;
+
+.InfoHome {
+    background-color: blueviolet;
+    display:inline;
+    justify-content: space-between;
 }
-.ContainerFilms > h2 {
-    color: yellow;
-    margin: auto;
-    }
+.ImagenInfo {
 
 
-.Container > img {
-    max-width: 400px;
 }
 
-.SwiperContainer {
-    margin-top: 40px;
-    margin-bottom: 80px;
+.HomeComponent{
+    background-color: brown;
+}
+.Name {
+    
+    margin-top: 50px;
 }

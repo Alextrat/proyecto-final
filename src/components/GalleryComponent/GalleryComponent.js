@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import SimpleBar from "simplebar-react";
 import "simplebar-react/dist/simplebar.min.css";
 import axios from "axios";
+import FavouriteComponent from "../FavouriteComponent/FavouriteComponent";
 
 const GalleryComponent = ({ user, id }) => {
   const { films, setFilms } = useContext(FilmsContext);
@@ -47,6 +48,7 @@ const GalleryComponent = ({ user, id }) => {
 
   return (
     <main>
+  
     <br></br>
       <div className={styles.searchbar}>
         <input value={valorInput} onChange={handleChange} type="search"></input>
@@ -54,6 +56,7 @@ const GalleryComponent = ({ user, id }) => {
       </div>
 
       <SimpleBar style={{ maxHeight: 700, color: "white" }}>
+      <FavouriteComponent></FavouriteComponent>
         <div className={styles.gallery}>
           {films.length ? (
             <>
