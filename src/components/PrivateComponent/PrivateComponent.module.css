@@ -17,14 +17,14 @@ justify-content: center;
 
 .PrivateFieldset{
     border: 2px;
-    border-color: yellow;
+    border-color: white;
 
 }
 
 .PrivateLegend {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 60px;
-    color: yellow;
+    color: white;
     max-width: 600px;
 }
 .PrivateForm {

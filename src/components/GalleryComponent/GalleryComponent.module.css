@@ -15,7 +15,7 @@ input{
     flex-wrap: wrap; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+        
 }
 
 .gallery_img{
@@ -25,17 +25,22 @@ input{
     margin-top: 7px;
     margin-bottom: 30px;
     border: solid 3px yellow;
+        
+}
+
+.gallery_img :hover {
+    filter: sepia(70%);
 }
 
 .gallery_item > p{
     margin-top: 20px;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 10%;
     padding: 3%;
     font-size:18px;
     max-width: 500px;
     max-height: fit-content;
-    color: yellow;
+    color: white
 }
 
 .searchbar {

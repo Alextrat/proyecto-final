@@ -3,10 +3,12 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    text-align: center;
 }
 .ContainerFilms > h2 {
-    color: rgb(206, 64, 242);
-    text-align: center;
+    color: yellow;
+    margin: auto;
     }
 
 
@@ -16,4 +18,5 @@
 
 .SwiperContainer {
     margin-top: 40px;
+    margin-bottom: 80px;
 }
