@@ -465,17 +465,23 @@
     {
       "email": "oscar@mail.com",
       "password": "$2a$10$pzZeiS2FM2MfMDMLggYXLOe1LyelCU.y4b5HzYdY0aTgzsPYIALFC",
-      "id": 1
+      "id": 1,
+      "name": "Óscar",
+      "surname": "Martínez"
     },
     {
       "email": "alex@mail.com",
       "password": "$2a$10$9DTRZfO6DNZVkXGD0gxJcuLKTm.KoGW69txUAQ60OqYnXNERihKHO",
-      "id": 2
+      "id": 2,
+      "name": "Álex",
+      "surname": "García"
     },
     {
-      "email": "a@mail.com",
+      "email": "lorenzo@mail.com",
       "password": "$2a$10$DxBX5oBRIYfvgDgjOkj.xOIdGBC/Tb3B.4PhL6.BwCdxAKwysyXxS",
-      "id": 3
+      "id": 3,
+      "name": "Lorenzo",
+      "surname": "Guerrero"
     },
     {
       "email": "prueba@prueba.com",
@@ -490,7 +496,9 @@
     {
       "email": "ana@mail.com",
       "password": "$2a$10$ggw7RLWZzYvwx9XLF6TAtu.s31UKQVcprz4AvQiqZNFR8SJoHMCX2",
-      "id": 6
+      "id": 6,
+      "name": "Ana",
+      "surname": "Caballero"
     },
     {
       "email": "oscar1@mail.com",
