@@ -4,7 +4,7 @@
     margin-top: 50px;
 }
 .MailLogin {
-    color: rgb(222, 244, 19);
+    color: yellow;
     margin-bottom: 30px;
     font-size: 30px;
     font-weight:normal;
@@ -14,7 +14,7 @@
     color: black;
     padding: 15px;
     height: 50px;
-    background-color:rgb(222, 244, 19);
+    background-color:yellow;
     border-radius: 8px;
 }
 
