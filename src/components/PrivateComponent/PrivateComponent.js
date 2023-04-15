@@ -13,11 +13,11 @@ const PrivateComponent = ({user}) => {
   return (
     <div className={styles.PrivateContainer}>
       <form className={styles.PrivateForm}>
-      <h1 className={styles.Saludo}> Hola {user.name} </h1>
+      <h1 className={styles.Saludo}> Hola {user.name} {user.surname}</h1>
+        <legend className={styles.PrivateLegend}>
+        Aquí podrás modificar tus datos personales
+        </legend>
         <fieldset className={styles.PrivateFieldset}>
-          <legend className={styles.PrivateLegend}>
-            Tus datos personales son: 
-          </legend>
           <label className={styles.PrivateLabel}>Nombre:</label>
           <input className={styles.PrivateInput} defaultValue={user.name} onChange={(e)=> user.name = e.target.value}/>
           <br></br>
@@ -28,7 +28,8 @@ const PrivateComponent = ({user}) => {
           <input className={styles.PrivateInput} defaultValue={user.email}  onChange={(e)=> user.email = e.target.value} />
           <br></br>
         </fieldset>
-        <button onClick={actualizar} className={styles.PrivateButton} type="button">OK</button>
+        
+        <button className={styles.PrivateButton} onClick={actualizar}  type="button">OK</button>
       </form>
     </div>
   )

@@ -156,15 +156,6 @@
       "sinopsis": "Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán del equipo de Quidditch, los entrenamientos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte. El anciano director pedirá ayuda a Harry y juntos emprenderán un peligroso viaje. Para debilitar al enemigo, el joven mago cuenta con la ayuda de un viejo libro de pociones perteneciente a un misterioso personaje que se hace llamar el Príncipe Mestizo."
     },
     {
-      "id": 10,
-      "nombre": "Animales fantásticos: los secretos de Dumbledore",
-      "dirección": "David Yates",
-      "año": 2022,
-      "clasificacion": "Acción",
-      "caratula": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfMTr_m3ZP3gxpm3NkHiboJdnNgtfy8sJevxFygqaU10mYGyHM",
-      "sinopsis": "El malvado y poderoso mago Grindelwald sigue buscando adeptos a su causa, pero esta vez se transportará a todos los rincones y mundos mágicos existentes para obtener lo que quiere. Por otra parte, Dumbledore unirá a su propio ejército formado por Newt y Theseus Scamander, Jacob, entre otros, para poner fin a la guerra que está a punto de comenzar Grindelwald en su nombre. Mientras encuentran aliados y la manera de poner fin a esta oscura edad, el pasado de Dumbledore irá cada vez tomando más presencia en la historia entre él y su antiguo amigo Grindelwald, con quien le unen otros grandes lazos más allá de la enemistad. "
-    },
-    {
       "id": 11,
       "nombre": "CODA: Los sonidos del silencio",
       "dirección": "Siân Heder ",
@@ -465,17 +456,23 @@
     {
       "email": "oscar@mail.com",
       "password": "$2a$10$pzZeiS2FM2MfMDMLggYXLOe1LyelCU.y4b5HzYdY0aTgzsPYIALFC",
-      "id": 1
+      "id": 1,
+      "name": "Óscar",
+      "surname": "Martínez"
     },
     {
       "email": "alex@mail.com",
       "password": "$2a$10$9DTRZfO6DNZVkXGD0gxJcuLKTm.KoGW69txUAQ60OqYnXNERihKHO",
-      "id": 2
+      "id": 2,
+      "name": "Álex",
+      "surname": "García"
     },
     {
-      "email": "a@mail.com",
+      "email": "lorenzo@mail.com",
       "password": "$2a$10$DxBX5oBRIYfvgDgjOkj.xOIdGBC/Tb3B.4PhL6.BwCdxAKwysyXxS",
-      "id": 3
+      "id": 3,
+      "name": "Lorenzo",
+      "surname": "Guerrero"
     },
     {
       "email": "prueba@prueba.com",
@@ -490,7 +487,9 @@
     {
       "email": "ana@mail.com",
       "password": "$2a$10$ggw7RLWZzYvwx9XLF6TAtu.s31UKQVcprz4AvQiqZNFR8SJoHMCX2",
-      "id": 6
+      "id": 6,
+      "name": "Ana",
+      "surname": "Caballero"
     },
     {
       "email": "oscar1@mail.com",

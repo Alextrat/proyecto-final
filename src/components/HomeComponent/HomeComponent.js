@@ -18,16 +18,16 @@ const HomeComponent = () => {
     
   <div className={styles.ContainerFilms}>
   
-  <h2>PELICULAS RECOMENDADAS DEL MES</h2>
+  <h2>Favoritas del mes</h2>
     <Swiper className={styles.SwiperContainer}
       style={{
-        "--swiper-navigation-color": "rgb(206, 64, 242)",
-        "--swiper-navigation-border": "solid rgb(206, 64, 242) 2px"
+        "--swiper-navigation-color": "yellow",
+        "--swiper-navigation-border": "solid yellow 2px"
       }}
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={5}
         slidesPerView={3}
-        autoplay={{delay:1500}}
+        autoplay={{delay:2000}}
         navigation={true}
         >
 
@@ -39,7 +39,9 @@ const HomeComponent = () => {
         )
       })}
     </Swiper>
-
+    <br/>
+    
+  <h2>Favoritas del público</h2>
 
   </div>
 )
