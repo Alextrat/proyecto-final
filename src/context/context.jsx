@@ -31,6 +31,7 @@ export const FilmsContextProvider = ({children}) => {
   const [comments, setComments] = useState([])
   const [ users, setUsers] = useState([])
   const [favourites, setFavourites] = useState([])
+  const [series, setSeries] = useState([])
 
 
   useEffect(()=>{
