@@ -3,15 +3,21 @@
     margin: 0;
     
 }
+
 .NavBar{
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content:baseline;
 }
+
+.Logo {
+    margin-left: 40px;
+}
 .Logo >img {
     height: 100px;
     width: 200px;
+    
 }
 
 .Logo:hover {
@@ -30,6 +36,7 @@
 .NavA{
     /*color:rgb(222, 244, 19)*/
     color: white;
+    font-weight: bold;
     text-decoration: none;
 
 }
@@ -37,8 +44,8 @@
 list-style: none;
 font-size: 28px;
 font-weight:normal;
-margin-left: 75px;
-padding-top: 25px;
+margin-right: 85px;
+padding-top: 15px;
 float: left;
 }
 
