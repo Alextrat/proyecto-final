@@ -8,7 +8,7 @@ const NavComponent = ({authenticated, logoutUser}) => (
 
   <div className={styles.NavBar}>
     <div className={styles.Logo}>
-      <img src='https://i0.wp.com/cineypalomitas.com/wp-content/uploads/2022/11/cropped-CINE-Y-PALOMITAS-scaled-1.jpg?fit=2549%2C1810&ssl=1'alt="logo"></img>
+      <Link to ="/"><img src='https://i0.wp.com/cineypalomitas.com/wp-content/uploads/2022/11/cropped-CINE-Y-PALOMITAS-scaled-1.jpg?fit=2549%2C1810&ssl=1'alt="logo"></img></Link>
     </div>
   
   <nav className={styles.Nav}>
