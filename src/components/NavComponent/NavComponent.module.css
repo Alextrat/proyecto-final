@@ -10,8 +10,8 @@
     align-content:baseline;
 }
 .Logo >img {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 200px;
 }
 
 .Logo:hover {
@@ -21,7 +21,7 @@
 .Nav{
     width:fit-content;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     background-color: black;
     
 
