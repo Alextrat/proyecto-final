@@ -4,7 +4,7 @@
     color: black;
     border-radius: 10%;
     width: 400px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 40%;
 }
 input{
@@ -14,7 +14,7 @@ input{
 .gallery{
     background-color: black;
     
-    margin-top: 30px;
+    margin-top: px;
     /* display: flex;  
     flex-wrap: wrap; */
     display: grid;
@@ -29,12 +29,15 @@ input{
     margin-top: 7px;
     margin-bottom: 30px;
     border: solid 3px yellow;
+    overflow: hidden;
         
 }
 
-.gallery_img :hover {
-    filter: sepia(70%);
+.gallery_img:hover {
+    -webkit-transform:scale(1);transform:scale(0.9);
+    
 }
+
 
 .gallery_item > p{
     margin-top: 20px;
@@ -44,7 +47,9 @@ input{
     font-size:18px;
     max-width: 500px;
     max-height: fit-content;
-    color: white
+    color: white;
+    overflow: hidden;
+    
 }
 
 .searchbar {
@@ -69,4 +74,10 @@ input{
     width: 50px;
     height: 30px;
     border-radius: 6px;
+}
+.bin:hover {
+    -webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
 }

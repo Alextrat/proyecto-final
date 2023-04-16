@@ -12,7 +12,7 @@ import FavouriteComponent from '../FavouriteComponent/FavouriteComponent';
 const HomeComponent = () => (
   <div className={styles.HomeComponent}>
     <h1 className={styles.Name}>Bienvenid@ a Cine & Palomitas </h1>
-    <p className={styles.NameP}>En esta sección, encontrarás cada mes, una selección de mis películas favoritas</p>
+    <p className={styles.NameP}>En esta sección encontrarás, cada mes, una selección de mis películas favoritas</p>
       <div className={styles.HomeLinks}>
       <FavouriteComponent></FavouriteComponent>
       </div>

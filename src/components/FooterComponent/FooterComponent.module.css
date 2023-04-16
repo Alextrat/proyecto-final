@@ -36,3 +36,8 @@ display: flex;
     margin: 10px;
     text-decoration: none;
 }
+
+.FooterA:hover {
+    color: yellow;
+    text-decoration-line:underline;
+}

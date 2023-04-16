@@ -13,6 +13,11 @@
     height: 150px;
     width: 250px;
 }
+
+.Logo:hover {
+    filter: saturate(180%);
+}
+
 .Nav{
     width:fit-content;
     margin: 0 auto;
