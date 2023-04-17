@@ -49,6 +49,6 @@ const RegisterComponent = ({registerUser}) => {
     </form>
     </div>
   );
-}
+};
 
 export default RegisterComponent;

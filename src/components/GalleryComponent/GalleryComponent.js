@@ -22,7 +22,7 @@ const GalleryComponent = ({ user, id }) => {
     } else {
       reset();
     }
-  }
+  };
   function search(busqueda) {
     let filtered = filmsPrint.filter((film) =>
       film.nombre.toLowerCase().includes(busqueda.toLowerCase())

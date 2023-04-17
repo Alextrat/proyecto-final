@@ -24,7 +24,7 @@ const onSubmit = (ev) => {
   ev.preventDefault()
   const {email, password} = FormUser;
   loginUser({email, password})
-}
+};
 
 
   return(

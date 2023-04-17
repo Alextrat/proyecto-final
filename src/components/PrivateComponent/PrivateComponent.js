@@ -33,6 +33,6 @@ const PrivateComponent = ({user}) => {
       </form>
     </div>
   );
-}
+};
 
 export default PrivateComponent

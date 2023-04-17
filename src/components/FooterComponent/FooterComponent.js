@@ -9,7 +9,7 @@ const FooterComponent = () => {
 
     const getCurrentYear = () => {
         return new Date().getFullYear();
-    }
+    };
 
 
     return (

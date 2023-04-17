@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     text-align: right;
-    padding-top: 31px;
+    padding-top: 30px;
 }
 .ContainerFilms > h3 {
     color: yellow;

@@ -17,9 +17,9 @@ const FilmComponent = () => {
     .then((pliculadb)=>{
       console.log(pliculadb)
       setFilm(pliculadb.data)
-    })
+    });
   },[]);
-  
+
   return(
   <div className={styles.filmCardContainter}>
     {film? 
