@@ -4,6 +4,10 @@
     
 }
 
+Img {
+    width: 250px;
+}
+
 .NavBar{
     display: flex;
     justify-content: space-around;

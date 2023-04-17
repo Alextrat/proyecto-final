@@ -21,17 +21,17 @@ const FilmComponent = () => {
   },[]);
 
   return(
-  <div className={styles.filmCardContainter}>
+  <div className={styles.FilmCardContainter}>
     {film? 
     <>
-    <h2 className={styles.filmCardContainterTitle}>{film.nombre}</h2>
+    <h1 className={styles.TextoFilm}>{film.nombre}</h1>
 
     
-    <img className={styles.filmCardContainterImg}src={film.caratula} alt={film.name}></img>
+    <img className={styles.ImagenFilm}src={film.caratula} alt={film.name}></img>
     
-    <h4 className={styles.filmCardContainterTitle}>{film.dirección}</h4>
-    <h4 className={styles.filmCardContainterYear}>{film.año}</h4>
-    <h4 className={styles.filmCardContainter}>{film.clasificacion}</h4>
+    <h3 className={styles.TitleFilm}>{film.dirección}</h3>
+    <h4 className={styles.YearFilm}>{film.año}</h4>
+    <h4 className={styles.CategoryFilm}>{film.clasificacion}</h4>
     <p className={styles.filmCardContainterText}>{film.sinopsis}</p>
    
     </>

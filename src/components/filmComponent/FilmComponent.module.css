@@ -1,9 +1,39 @@
-img{
-    width: 250px;
-}
-.filmCardContainter{
+
+.FilmCardContainter{
 color: white;
 }
+.TextoFilm {
+
+padding-bottom: 20px;
+color: yellow;
+}
+.ImagenFilm {
+    width: 250px;
+    padding: 40px;
+    min-height: 400px;
+    max-width: 500px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border: solid 3px yellow;
+    overflow: hidden;
+        
+}
+
+.TitleFilm {
+    margin-bottom: 20px;
+}
+
+.FilmCardContainter > h4 {
+    margin-bottom: 20px;
+}
+
+.FilmCardContainter > p {
+    margin-right: 10%;
+    margin-left: 10%;
+    }
+
+
+
  /*Estilos de Álex*/
 
 /*.filmCardContainterImg{
