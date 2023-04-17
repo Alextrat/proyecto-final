@@ -28,6 +28,7 @@ const onSubmit = (ev) => {
 
 
   return(
+
     <div className={styles.LoginContainer}>
       
       <form onSubmit={onSubmit}>
@@ -43,6 +44,6 @@ const onSubmit = (ev) => {
         
       </form>
     </div>
-  )
+  );
 };
 export default LoginComponent;

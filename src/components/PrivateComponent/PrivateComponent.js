@@ -6,14 +6,14 @@ import axios from 'axios';
 
 const PrivateComponent = ({user}) => {
 
- async function actualizar(){
-   await axios.patch(`http://localhost:3000/users/${user.id}`,{name: user.name, surname: user.surname, email: user.email})
+  async function actualizar(){
+    await axios.patch(`http://localhost:3000/users/${user.id}`,{name: user.name, surname: user.surname, email: user.email})
   }
 
   return (
     <div className={styles.PrivateContainer}>
       <form className={styles.PrivateForm}>
-      <h1 className={styles.Saludo}> Hola {user.name} {user.surname}</h1>
+      <h1 className={styles.Saludo}> Hola {user.name}</h1>
         <legend className={styles.PrivateLegend}>
         Aquí podrás modificar tus datos personales
         </legend>
@@ -32,7 +32,7 @@ const PrivateComponent = ({user}) => {
         <button className={styles.PrivateButton} onClick={actualizar}  type="button">OK</button>
       </form>
     </div>
-  )
+  );
 }
 
 export default PrivateComponent

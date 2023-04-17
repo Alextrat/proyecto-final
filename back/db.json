@@ -1,4 +1,5 @@
 {
+  
   "favoritas": [
     {
       "id": 1,
@@ -779,11 +780,11 @@
       "titulo": "Brillante",
       "cuerpo": "Sin duda me encanto mucho la película porque plantea varios temas que invitan a reflexionar y está relacionado con la inteligencia lógica matemática ya que el actor es un genio matemático que puede tener de ciertos asuntos de la vida cotidiana, lo que le permite, por una parte, el encontrar importantes relaciones ocultas en las cosas, pero, por otra parte, esta misma habilidad lo hace perder su capacidad de distinguir entre lo real y lo imaginario",
       "usuarioId": 16,
-      "puntuacion": 5,
+      "puntuacion": 7,
       "peliculaId": 15
     },
     {
-      "titulo": "Peliculón",
+      "titulo": "Excelente",
       "cuerpo": "El mejor thriller de misterio y crimen por exelencia, está película me encanta, la he visto más de 40 veces y nunca me caso de ella,  es una joya desde donde lo mires, las actuaciones los apartados técnicos, la fantástica dirección de David Fincher, la música y el final, hacen que sea una película simplemente perfecta.",
       "usuarioId": 17,
       "puntuacion": 5,

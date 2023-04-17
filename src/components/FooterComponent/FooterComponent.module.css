@@ -13,10 +13,8 @@
 
 }
 
-.FooterUl {
-   
-
-    
+.Footer > p {
+    height: 20px;
 }
 
 .FooterLi {
