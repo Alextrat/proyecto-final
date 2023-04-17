@@ -4,16 +4,15 @@ import styles from './FooterComponent.module.css';
 
 
 
-import { FaFontAwesome } from 'react-icons/fa';
-import {FaFacebook, FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
 
 const FooterComponent = () => {
 
     const getCurrentYear = () => {
         return new Date().getFullYear();
-    }
+    };
 
-return (
+
+    return (
 
     <footer className={styles.Footer}>
         <div className={styles.FooterContainerP}>

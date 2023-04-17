@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 
 import SimpleBar from "simplebar-react";
 import "simplebar-react/dist/simplebar.min.css";
-import axios from "axios";
+
 
 
 const GalleryComponent = ({ user, id }) => {
   const { films, setFilms } = useContext(FilmsContext);
   const [filmsPrint, setFilmsPrint] = useState(films);
   const [valorInput, setValorInput] = useState([]);
+
 
   function handleChange(e) {
     e.preventDefault();
@@ -21,7 +22,7 @@ const GalleryComponent = ({ user, id }) => {
     } else {
       reset();
     }
-  }
+  };
   function search(busqueda) {
     let filtered = filmsPrint.filter((film) =>
       film.nombre.toLowerCase().includes(busqueda.toLowerCase())

@@ -1,5 +1,6 @@
-import React, { useContext, useState } from 'react';
-import PropTypes from 'prop-types';
+
+import React, { useContext } from 'react';
+
 import { FilmsContext } from '../../context/context';
 import styles from './FavouriteComponent.module.css'
 
@@ -13,9 +14,7 @@ import 'swiper/css/navigation';
 
 const FavouriteComponent = () => { 
 const {favourites} = useContext(FilmsContext);
-const getCurrentMonth = () => {
-    return new Date().getMonth;
-}
+
 
 
     return ( 

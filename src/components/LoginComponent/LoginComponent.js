@@ -24,10 +24,11 @@ const onSubmit = (ev) => {
   ev.preventDefault()
   const {email, password} = FormUser;
   loginUser({email, password})
-}
+};
 
 
   return(
+
     <div className={styles.LoginContainer}>
       
       <form onSubmit={onSubmit}>
@@ -43,6 +44,6 @@ const onSubmit = (ev) => {
         
       </form>
     </div>
-  )
+  );
 };
 export default LoginComponent;

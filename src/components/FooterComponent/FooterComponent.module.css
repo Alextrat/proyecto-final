@@ -10,11 +10,12 @@
 .FooterContainer {
     display: flex;
     justify-content: space-evenly ;
-
 }
 
-.FooterUl {
-    
+
+.Footer > p {
+    height: 21px;
+
 }
 
 .FooterLi {

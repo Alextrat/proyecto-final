@@ -48,7 +48,7 @@ const RegisterComponent = ({registerUser}) => {
     <button className={styles.ButtonReg} type='submit'>Regístrate</button>
     </form>
     </div>
-  )
-}
+  );
+};
 
 export default RegisterComponent;
