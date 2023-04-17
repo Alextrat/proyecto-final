@@ -9,12 +9,11 @@
     justify-content: space-around;
     align-items: center;
     align-content:baseline;
-    
     width:100%;
 }
 
 .Logo {
-    margin-left: 60px;
+    margin-left: 61px;
 }
 .Logo >img {
     height: 100px;

@@ -13,6 +13,7 @@ const GalleryComponent = ({ user, id }) => {
   const [filmsPrint, setFilmsPrint] = useState(films);
   const [valorInput, setValorInput] = useState([]);
 
+  
   function handleChange(e) {
     e.preventDefault();
     setValorInput(e.target.value);

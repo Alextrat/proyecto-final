@@ -13,7 +13,8 @@ const FooterComponent = () => {
         return new Date().getFullYear();
     }
 
-return (
+
+    return (
 
     <footer className={styles.Footer}>
         <div className={styles.FooterContainerP}>
