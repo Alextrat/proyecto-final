@@ -22,7 +22,7 @@ const FilmComponent = () => {
     {film? 
     <>
     <h2 className={styles.filmCardContainterTitle}>{film.nombre}</h2>
-    
+
     <img className={styles.filmCardContainterImg}src={film.caratula} alt={film.name}></img>
     
     <h4 className={styles.filmCardContainterTitle}>{film.dirección}</h4>
@@ -33,6 +33,7 @@ const FilmComponent = () => {
     </>
     : 'cargando...'}
     
+
   </div>)
 };
 

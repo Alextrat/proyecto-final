@@ -1,7 +1,11 @@
 
-img{
-    width: 250px;
+.filmCardContainterImg{
+    border: solid 3px yellow;
+    width: 15%;
+    /* min-height: 300px;
+    max-width: 300px; */
 }
+
 
 .filmCardContainterImg{
     border: solid 3px yellow;
@@ -27,3 +31,4 @@ color: white;
         margin-right: 15%;
         margin-top: 2%;
     }
+

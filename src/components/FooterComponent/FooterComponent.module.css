@@ -14,6 +14,8 @@
 }
 
 
+    
+
 
 .FooterLi {
 list-style: none;
@@ -24,10 +26,13 @@ padding: 25px 30px;
 display: flex;
 
 }
-
+/* .FooterP{
+    height: 30px;
+} */
 
 .FooterA {
     color: white;
+   
     padding: 10px;
     margin: 10px;
     text-decoration: none;
