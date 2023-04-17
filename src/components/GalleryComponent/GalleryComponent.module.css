@@ -52,9 +52,6 @@ input{
     
 }
 
-.searchbar {
-
-}
 
 .searchbar > button{
     color: black;
@@ -63,9 +60,16 @@ input{
     padding: 8px;
     height: 40px;
     border-radius: 10%;
-    margin-left: 10px;
-    
+    margin-left: 10px; 
 }
+
+.searchbar > button:hover {
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+
+   
 
 .bin{
     background-color:black;
@@ -80,4 +84,5 @@ input{
 -webkit-transform-style: preserve-3d;
 transform: rotateY(180deg);
 transform-style: preserve-3d;
+
 }

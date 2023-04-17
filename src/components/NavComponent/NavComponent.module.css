@@ -9,10 +9,12 @@
     justify-content: space-around;
     align-items: center;
     align-content:baseline;
+    
+    width:100%;
 }
 
 .Logo {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 .Logo >img {
     height: 100px;
@@ -26,9 +28,11 @@
 
 .Nav{
     width:fit-content;
-    margin: 0 auto;
+    margin-left: 75px;
     padding-bottom: 10px;
-    background-color: black;
+    padding-left: 15 px;
+    
+    width: 90%;
     
 
 }
@@ -41,12 +45,25 @@
 
 }
 .NavLi{
-list-style: none;
-font-size: 28px;
-font-weight:normal;
-margin-right: 85px;
-padding-top: 15px;
-float: left;
+    list-style: none;
+    font-size: 28px;
+    font-weight:normal;
+    margin-right: 25px;
+    margin-left: 45px;
+    padding-top: 15px;
+    float: left;
+    
+}
+
+.LiPrivate {
+    list-style: none;
+    font-size: 28px;
+    font-weight:normal;
+    margin-right: 25px;
+    margin-left: 45px;
+    padding-top: 15px;
+    float: left;
+    
 }
 
 .NavA:hover {
