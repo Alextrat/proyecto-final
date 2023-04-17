@@ -12,8 +12,10 @@
     justify-content: space-evenly ;
 }
 
+
 .Footer > p {
     height: 21px;
+
 }
 
 .FooterLi {
@@ -25,10 +27,13 @@ padding: 25px 30px;
 display: flex;
 
 }
-
+/* .FooterP{
+    height: 30px;
+} */
 
 .FooterA {
     color: white;
+   
     padding: 10px;
     margin: 10px;
     text-decoration: none;

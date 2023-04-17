@@ -527,7 +527,9 @@
       "password": "$2a$10$25R5d.yTAhkitklqalLTSe0HIB4Wj7Y8yLC.2bovL5EYGd11zXAAy",
       "firstname": "1",
       "lastname": "1",
-      "id": 11
+      "id": 11,
+      "name": "pepe",
+      "surname": "perez"
     }
   ],
   "comments": [

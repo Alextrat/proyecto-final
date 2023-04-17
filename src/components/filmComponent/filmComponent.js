@@ -25,6 +25,7 @@ const FilmComponent = () => {
     {film? 
     <>
     <h2 className={styles.filmCardContainterTitle}>{film.nombre}</h2>
+
     
     <img className={styles.filmCardContainterImg}src={film.caratula} alt={film.name}></img>
     
@@ -36,6 +37,7 @@ const FilmComponent = () => {
     </>
     : 'cargando...'}
     
+
   </div>)
 };
 
