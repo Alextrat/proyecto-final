@@ -54,5 +54,5 @@ const logoutUser = () => setUser(null);
     <FooterComponent></FooterComponent>
     </div>
   );
-}
+};
 export default App;

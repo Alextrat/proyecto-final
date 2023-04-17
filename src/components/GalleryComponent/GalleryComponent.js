@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import SimpleBar from "simplebar-react";
 import "simplebar-react/dist/simplebar.min.css";
-import axios from "axios";
+
 
 
 const GalleryComponent = ({ user, id }) => {
@@ -13,7 +13,7 @@ const GalleryComponent = ({ user, id }) => {
   const [filmsPrint, setFilmsPrint] = useState(films);
   const [valorInput, setValorInput] = useState([]);
 
-  
+
   function handleChange(e) {
     e.preventDefault();
     setValorInput(e.target.value);

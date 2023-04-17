@@ -32,7 +32,7 @@ const PrivateComponent = ({user}) => {
         <button className={styles.PrivateButton} onClick={actualizar}  type="button">OK</button>
       </form>
     </div>
-  )
+  );
 }
 
 export default PrivateComponent

@@ -13,7 +13,6 @@ const NavComponent = ({authenticated, logoutUser}) => (
   
   <nav className={styles.Nav}>
     <ul className={styles.NavUl}>
-     
       <li className={styles.NavLi}><Link className={styles.NavA} to ="/gallery">Películas</Link></li>
       <li className={styles.NavLi}><Link className={styles.NavA} to ="/register">Regístrate</Link></li>
       {authenticated ? 
