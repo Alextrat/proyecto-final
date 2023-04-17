@@ -13,7 +13,7 @@ const PrivateComponent = ({user}) => {
   return (
     <div className={styles.PrivateContainer}>
       <form className={styles.PrivateForm}>
-      <h1 className={styles.Saludo}> Hola {user.name} {user.surname}</h1>
+      <h1 className={styles.Saludo}> Hola {user.name}</h1>
         <legend className={styles.PrivateLegend}>
         Aquí podrás modificar tus datos personales
         </legend>
