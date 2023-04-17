@@ -1,7 +1,22 @@
 
-img{
-    width: 250px;
+.filmCardContainterImg{
+    border: solid 3px yellow;
+    width: 15%;
+    /* min-height: 300px;
+    max-width: 300px; */
 }
+
 .filmCardContainter{
 color: white;
+}
+.filmCardContainterTitle{
+    margin: 20px;
+}
+.filmCardContainterYear{
+    margin: 20px;
+}
+.filmCardContainterText{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
 }
