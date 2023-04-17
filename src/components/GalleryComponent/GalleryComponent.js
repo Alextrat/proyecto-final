@@ -55,7 +55,7 @@ const GalleryComponent = ({ user, id }) => {
         <button onClick={reset}>Restablecer </button>
       </div>
 
-      <SimpleBar style={{ maxHeight: 700, color: "white" }}>
+      <SimpleBar style={{ maxHeight: 1000, color: "white" }}>
       
         <div className={styles.gallery}>
           {films.length ? (
